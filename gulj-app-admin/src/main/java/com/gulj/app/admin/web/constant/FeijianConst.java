@@ -1,10 +1,10 @@
-package com.gulj.common.util;
+package com.gulj.app.admin.web.constant;
 
 
 /**
- * 
+ *  平台系统统一常量配置
  */
-public class Const {
+public class FeijianConst {
 	
 	public static final String MSG_OK = "ok";
 	public static final String MSG_ERROR = "error";

@@ -1,4 +1,4 @@
-package com.gulj.common.util;
+package com.gulj.app.admin.web.constant;
 
 import java.io.UnsupportedEncodingException;
 

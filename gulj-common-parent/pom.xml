@@ -14,6 +14,10 @@
 
     <name>gulj-common-parent</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>../gulj-entity-common</module>
+        <module>../gulj-entity-common-bo</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

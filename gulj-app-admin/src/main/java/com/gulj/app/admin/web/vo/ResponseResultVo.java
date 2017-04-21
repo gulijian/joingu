@@ -1,19 +1,11 @@
-package com.gulj.admin.web.pojo;
+package com.gulj.app.admin.web.vo;
 
-public class ResponseResultPojo {
+import lombok.Data;
+
+@Data
+public class ResponseResultVo {
 	
 	private String code;
 	private String message;
-	public String getCode() {
-		return code;
-	}
-	public void setCode(String code) {
-		this.code = code;
-	}
-	public String getMessage() {
-		return message;
-	}
-	public void setMessage(String message) {
-		this.message = message;
-	}
+
 }

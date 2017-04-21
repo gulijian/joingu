@@ -1,7 +1,7 @@
-package com.gulj.admin.web.mapper;
+package com.gulj.app.admin.biz.mapper;
 
-import com.gulj.admin.web.entity.Menu;
-import com.gulj.admin.web.entity.User;
+import com.gulj.app.admin.biz.entity.Menu;
+import com.gulj.app.admin.biz.entity.User;
 
 import java.util.List;
 

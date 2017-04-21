@@ -1,8 +1,8 @@
-package com.gulj.admin.web.entity;
-
-import java.util.Date;
+package com.gulj.app.admin.biz.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+
+import java.util.Date;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.gulj.app.admin.web.bo;
+package com.gulj.app.admin.biz.bo;
 
 public class FjParamBo {
 	

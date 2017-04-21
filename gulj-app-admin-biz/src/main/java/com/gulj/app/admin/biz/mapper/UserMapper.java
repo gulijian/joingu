@@ -1,7 +1,7 @@
-package com.gulj.admin.web.mapper;
+package com.gulj.app.admin.biz.mapper;
 
-import com.gulj.admin.web.entity.User;
-import com.gulj.admin.web.pojo.FjParamPojo;
+import com.gulj.app.admin.biz.entity.User;
+import com.gulj.app.admin.biz.bo.FjParamBo;
 
 import java.util.List;
 
@@ -16,6 +16,6 @@ public interface UserMapper {
 
     int addEmployee(User user);
 
-    int delEmployee(FjParamPojo fjParamPojo);
+    int delEmployee(FjParamBo fjParamBo);
 
 }

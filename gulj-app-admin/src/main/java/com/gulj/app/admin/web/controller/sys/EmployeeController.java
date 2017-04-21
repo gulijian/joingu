@@ -1,4 +1,4 @@
-package com.gulj.admin.web.controller.sys;
+package com.gulj.app.admin.web.controller.sys;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

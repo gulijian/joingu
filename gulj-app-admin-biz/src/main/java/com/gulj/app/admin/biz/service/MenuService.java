@@ -1,7 +1,7 @@
-package com.gulj.admin.web.service;
+package com.gulj.app.admin.biz.service;
 
-import com.gulj.admin.web.entity.Menu;
-import com.gulj.admin.web.mapper.MenuMapper;
+import com.gulj.app.admin.biz.entity.Menu;
+import com.gulj.app.admin.biz.mapper.MenuMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

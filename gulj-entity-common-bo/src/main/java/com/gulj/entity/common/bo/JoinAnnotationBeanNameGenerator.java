@@ -2,7 +2,7 @@
  * 上海旗顾 问股平台
  */
 
-package com.ncm.common.bo;
+package com.gulj.entity.common.bo;
 
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.AnnotationBeanNameGenerator;
@@ -14,11 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 自定义Spring注解bean的命名策略
- *
- * @author: chenbing
- * @create: 2016-06-12 17:46
  */
-public class NCMAnnotationBeanNameGenerator extends AnnotationBeanNameGenerator {
+public class JoinAnnotationBeanNameGenerator extends AnnotationBeanNameGenerator {
 	
     @Override
     protected String buildDefaultBeanName(BeanDefinition definition) {

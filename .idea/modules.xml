@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gulj-admin/gulj-admin.iml" filepath="$PROJECT_DIR$/gulj-admin/gulj-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gulj-admin-parent/gulj-admin-parent.iml" filepath="$PROJECT_DIR$/gulj-admin-parent/gulj-admin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-app-admin/gulj-app-admin.iml" filepath="$PROJECT_DIR$/gulj-app-admin/gulj-app-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-app-admin-biz/gulj-app-admin-biz.iml" filepath="$PROJECT_DIR$/gulj-app-admin-biz/gulj-app-admin-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-app-parent/gulj-app-parent.iml" filepath="$PROJECT_DIR$/gulj-app-parent/gulj-app-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-assembly-email/gulj-assembly-email.iml" filepath="$PROJECT_DIR$/gulj-assembly-email/gulj-assembly-email.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-assembly-parent/gulj-assembly-parent.iml" filepath="$PROJECT_DIR$/gulj-assembly-parent/gulj-assembly-parent.iml" />
@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/gulj-base-dependency/gulj-base-dependency.iml" filepath="$PROJECT_DIR$/gulj-base-dependency/gulj-base-dependency.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-common-parent/gulj-common-parent.iml" filepath="$PROJECT_DIR$/gulj-common-parent/gulj-common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-common-util/gulj-common-util.iml" filepath="$PROJECT_DIR$/gulj-common-util/gulj-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-entity-common/gulj-entity-common.iml" filepath="$PROJECT_DIR$/gulj-entity-common/gulj-entity-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-entity-common-bo/gulj-entity-common-bo.iml" filepath="$PROJECT_DIR$/gulj-entity-common-bo/gulj-entity-common-bo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/joingu.iml" filepath="$PROJECT_DIR$/.idea/joingu.iml" />
     </modules>
   </component>

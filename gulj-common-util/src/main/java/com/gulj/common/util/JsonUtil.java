@@ -1,4 +1,4 @@
-package com.ncm.common.utils;
+package com.gulj.common.util;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -12,8 +12,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+
 /**
- * Created by Administrator on 2016/5/13 0013.
+ *
  */
 public class JsonUtil {
 

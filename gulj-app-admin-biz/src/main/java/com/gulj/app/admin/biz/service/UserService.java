@@ -1,16 +1,17 @@
-package com.gulj.admin.web.service;
+package com.gulj.app.admin.biz.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.gulj.admin.web.entity.User;
-import com.gulj.admin.web.mapper.UserMapper;
-import com.gulj.admin.web.pojo.FjParamPojo;
+import com.gulj.app.admin.biz.bo.FjParamBo;
+import com.gulj.app.admin.biz.entity.User;
+import com.gulj.app.admin.biz.mapper.UserMapper;
 import com.gulj.common.page.PageParam;
 import com.gulj.common.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 
 @Service
 public class UserService {
@@ -50,11 +51,11 @@ public class UserService {
     /**
      * 删除员工
      *
-     * @param fjParamPojo
+     * @param fjParamBo
      * @return
      */
-    public boolean delEmployee(FjParamPojo fjParamPojo) {
-        int flag = userMapper.delEmployee(fjParamPojo);
+    public boolean delEmployee(FjParamBo fjParamBo) {
+        int flag = userMapper.delEmployee(fjParamBo);
         return flag > 0 ? true : false;
     }
 

@@ -1,4 +1,4 @@
-package com.gulj.admin.web.entity;
+package com.gulj.app.admin.biz.entity;
 
 /**
  * 角色表

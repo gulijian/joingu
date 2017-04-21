@@ -1,7 +1,8 @@
-package com.gulj.admin.web.entity;
+package com.gulj.app.admin.biz.entity;
 
 import java.util.Date;
 import java.util.List;
+
 /**
  * 
  * Menu
