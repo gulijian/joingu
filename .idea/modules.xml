@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gulj-admin/gulj-admin.iml" filepath="$PROJECT_DIR$/gulj-admin/gulj-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-admin-parent/gulj-admin-parent.iml" filepath="$PROJECT_DIR$/gulj-admin-parent/gulj-admin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-app-parent/gulj-app-parent.iml" filepath="$PROJECT_DIR$/gulj-app-parent/gulj-app-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-assembly-email/gulj-assembly-email.iml" filepath="$PROJECT_DIR$/gulj-assembly-email/gulj-assembly-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-assembly-parent/gulj-assembly-parent.iml" filepath="$PROJECT_DIR$/gulj-assembly-parent/gulj-assembly-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-base-adapter/gulj-base-adapter.iml" filepath="$PROJECT_DIR$/gulj-base-adapter/gulj-base-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-base-dependency/gulj-base-dependency.iml" filepath="$PROJECT_DIR$/gulj-base-dependency/gulj-base-dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-common-parent/gulj-common-parent.iml" filepath="$PROJECT_DIR$/gulj-common-parent/gulj-common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-common-util/gulj-common-util.iml" filepath="$PROJECT_DIR$/gulj-common-util/gulj-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/joingu.iml" filepath="$PROJECT_DIR$/.idea/joingu.iml" />
+    </modules>
+  </component>
+</project>
