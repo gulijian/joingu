@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gu.feijian.web.mapper.UserMapper">
+	
+	<sql id="userColumns">
+		sid,
+		username,
+		password,
+		role_id roleId,
+		last_login lastLogin,
+		ip,
+		status,
+		skin,
+		sex,
+		email,
+		number,
+		phone,
+		create_time createTime,
+		update_time updateTime,
+		is_delete isDelete
+	</sql>
+
+	
+	<select id="queryUserLst" resultType="User">
+		SELECT <include refid="userColumns"/> FROM sys_user ORDER BY create_time DESC
+	</select>
+	
+	<!-- 检查用户 -->
+	<select id="checkUser" parameterType="User" resultType="User">
+		select <include refid="userColumns"/> from sys_user where username = #{username} and password = #{password}
+	</select>
+	
+	<select id="queryListPageInfo" parameterType="User"  resultType="User">
+    		select
+			     <include refid="userColumns"/>
+		    FROM
+			sys_user
+			<trim prefix="WHERE" prefixOverrides="AND | OR">  
+				<if test="username !=null and username !='' ">
+					and username like concat('%', #{username}, '%')
+				</if>
+				<if test="phone !=null and phone !=0 ">
+					and phone  = #{phone}
+				</if>
+			</trim>
+			order by create_time desc
+    </select>
+    
+    <!-- 新增员工 -->
+    <insert id="addEmployee" parameterType="User" useGeneratedKeys="true">
+    	insert into sys_user(
+    		username,
+    		password,
+    		email,
+    		phone
+    	)values(
+    		#{username},
+ 			#{password},
+ 			#{email},
+ 			#{phone}
+    	)
+    </insert>
+    
+    <delete id="delEmployee" parameterType="FjParamPojo">
+    	 delete from sys_user where sid = #{id}
+    </delete>
+    
+	
+	
+
+</mapper>

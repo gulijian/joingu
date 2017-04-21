@@ -16,7 +16,6 @@
     <modules>
         <module>../gulj-common-parent</module>
         <module>../gulj-app-parent</module>
-        <module>../gulj-admin-parent</module>
         <module>../gulj-assembly-parent</module>
     </modules>
 
@@ -53,7 +52,7 @@
             </dependency>
             <dependency>
                 <groupId>gulj.common</groupId>
-                <artifactId>gulj-entity-member</artifactId>
+                <artifactId>gulj-entity-common-bo</artifactId>
                 <version>${gulj.common.version}</version>
             </dependency>
             <dependency>
@@ -119,47 +118,21 @@
                 <artifactId>gulj-app-parent</artifactId>
                 <version>${gulj.app.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>gulj.app</groupId>
-                <artifactId>gulj-institu-pc</artifactId>
-                <version>${gulj.app.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>gulj.app</groupId>
-                <artifactId>gulj-institu-api</artifactId>
-                <version>${gulj.app.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>gulj.app</groupId>
-                <artifactId>gulj-institu-busi</artifactId>
-                <version>${gulj.app.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>gulj.app</groupId>
-                <artifactId>gulj-app-auth</artifactId>
+                <artifactId>gulj-app-admin</artifactId>
                 <version>${gulj.app.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>gulj.component</groupId>
-                <artifactId>gulj-component-common</artifactId>
-                <version>${gulj.component.version}</version>
+                <groupId>gulj.app</groupId>
+                <artifactId>gulj-app-admin-biz</artifactId>
+                <version>${gulj.app.version}</version>
             </dependency>
-            <dependency>
-                <groupId>gulj.component</groupId>
-                <artifactId>gulj-component-parent</artifactId>
-                <version>${gulj.component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>gulj.component</groupId>
-                <artifactId>gulj-cache</artifactId>
-                <version>${gulj.component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>gulj.component</groupId>
-                <artifactId>gulj-sms</artifactId>
-                <version>${gulj.component.version}</version>
-            </dependency>
+
+
+
             <dependency>
                 <groupId>gulj.assembly</groupId>
                 <artifactId>gulj-email-spring</artifactId>
@@ -264,6 +237,12 @@
                 <groupId>org.sitemesh</groupId>
                 <artifactId>sitemesh</artifactId>
                 <version>3.0.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>1.2.0</version>
             </dependency>
 
 
