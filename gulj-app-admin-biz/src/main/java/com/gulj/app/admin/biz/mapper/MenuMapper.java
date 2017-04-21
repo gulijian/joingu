@@ -9,6 +9,7 @@ public interface MenuMapper {
 
     User queryUserList();
 
+
     List<Menu> getRootMenuLst();
 
     List<Menu> queryMenuByUserId(Integer userId);

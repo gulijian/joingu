@@ -1,6 +1,6 @@
-package com.gulj.app.admin.biz.bo;
+package com.gulj.app.admin.biz.entity;
 
-public class FjParamBo {
+public class ReqParam {
 	
 	private String id;
 

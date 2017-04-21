@@ -15,12 +15,12 @@
 	</sql>
 	
 	<!-- 获取一级菜单 -->
-	<select id="getRootMenuLst" resultType="com.gu.feijian.web.entity.Menu">
+	<select id="getRootMenuLst" resultType="com.gulj.app.admin.biz.entity.Menu">
 		SELECT <include refid="menuColumns"/> from sys_menu where parent_id = 1
 	</select>
 
 	
-	<select id="getUserRootMenuLst" parameterType="int" resultType="com.gu.feijian.web.entity.Menu">
+	<select id="getUserRootMenuLst" parameterType="int" resultType="com.gulj.app.admin.biz.entity.Menu">
 		SELECT
 			t3.id menuId,t3.name menuName,t3.url menuUrl,t3.parent_id parentId,t3.sort menuOrder,t3.icon menuIcon,t3.create_time createTime
 		FROM
@@ -34,12 +34,12 @@
 	</select>
 
 	<!-- 获取用户一级菜单下左侧菜单的父菜单 -->
-	<select id="querySideBarParentMenu" parameterType="int" resultType="com.gu.feijian.web.entity.Menu">
+	<select id="querySideBarParentMenu" parameterType="int" resultType="com.gulj.app.admin.biz.entity.Menu">
 		SELECT <include refid="menuColumns"/> from sys_menu where parent_id = #{0}
 	</select>
 	
 	<!-- 获取用户一级菜单下左侧菜单的父菜单的子菜单-->
-	<select id="querySideBarChildMenu" parameterType="int" resultType="com.gu.feijian.web.entity.Menu">
+	<select id="querySideBarChildMenu" parameterType="int" resultType="com.gulj.app.admin.biz.entity.Menu">
 			SELECT <include refid="menuColumns"/> from sys_menu where parent_id = #{0}
 	</select>
 

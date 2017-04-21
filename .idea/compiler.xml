@@ -18,6 +18,7 @@
       <module name="gulj-admin-parent" target="1.8" />
       <module name="gulj-app-admin" target="1.8" />
       <module name="gulj-app-admin-biz" target="1.8" />
+      <module name="gulj-app-admin1" target="1.8" />
       <module name="gulj-app-parent" target="1.8" />
       <module name="gulj-assembly-email" target="1.8" />
       <module name="gulj-assembly-parent" target="1.8" />

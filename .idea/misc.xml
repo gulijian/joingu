@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/gulj-admin" />
     <file type="web" url="file://$PROJECT_DIR$/gulj-app-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/gulj-app-admin1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

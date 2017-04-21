@@ -2,7 +2,7 @@ package com.gulj.app.admin.biz.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.gulj.app.admin.biz.bo.FjParamBo;
+import com.gulj.app.admin.biz.entity.ReqParam;
 import com.gulj.app.admin.biz.entity.User;
 import com.gulj.app.admin.biz.mapper.UserMapper;
 import com.gulj.common.page.PageParam;
@@ -54,7 +54,7 @@ public class UserService {
      * @param fjParamBo
      * @return
      */
-    public boolean delEmployee(FjParamBo fjParamBo) {
+    public boolean delEmployee(ReqParam fjParamBo) {
         int flag = userMapper.delEmployee(fjParamBo);
         return flag > 0 ? true : false;
     }

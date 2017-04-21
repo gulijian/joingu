@@ -62,7 +62,7 @@
     	)
     </insert>
     
-    <delete id="delEmployee" parameterType="FjParamPojo">
+    <delete id="delEmployee" parameterType="ReqParam">
     	 delete from sys_user where sid = #{id}
     </delete>
     

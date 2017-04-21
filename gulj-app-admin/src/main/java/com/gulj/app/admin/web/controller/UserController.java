@@ -2,7 +2,7 @@ package com.gulj.app.admin.web.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageInfo;
-import com.gulj.app.admin.biz.bo.FjParamBo;
+import com.gulj.app.admin.biz.entity.ReqParam;
 import com.gulj.app.admin.biz.entity.User;
 import com.gulj.app.admin.biz.service.UserService;
 import com.gulj.app.admin.web.bo.BusinessParamBo;
@@ -120,7 +120,7 @@ public class UserController {
      */
     @RequestMapping("/delEmployee")
     @ResponseBody
-    public ResponseResultVo delEmployee(FjParamBo fjParamBo) {
+    public ResponseResultVo delEmployee(ReqParam fjParamBo) {
         ResponseResultVo ResponseResultVo = new ResponseResultVo();
         String returnCode = null;
         try {
