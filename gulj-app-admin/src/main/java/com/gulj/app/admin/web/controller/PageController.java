@@ -1,5 +1,6 @@
 package com.gulj.app.admin.web.controller;
 
+import com.gulj.app.admin.web.constant.AdminConstant;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,12 +13,12 @@ public class PageController {
      */
     @RequestMapping("/sys/index")
     public String showIndex() {
-        return "index";
+        return AdminConstant.VIEW_ROOT+"index";
     }
 
     @RequestMapping("/sys/indexContent")
     public String showIndexContent() {
-        return "indexContent";
+        return AdminConstant.VIEW_ROOT + "indexContent";
     }
 
 
@@ -35,7 +36,7 @@ public class PageController {
      */
     @RequestMapping("/sys/{model}/{page}")
     public String showpage(@PathVariable String model, @PathVariable String page) {
-        return "/sys/" + model + "/" + page;
+        return AdminConstant.VIEW_ROOT + "sys/" + model + "/" + page;
     }
 
 }

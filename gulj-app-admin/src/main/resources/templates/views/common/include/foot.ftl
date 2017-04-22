@@ -1,4 +1,3 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <div class="footer-inner">
 	<div class="footer-content">
 		<span class="bigger-120">

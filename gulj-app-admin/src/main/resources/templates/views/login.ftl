@@ -82,10 +82,10 @@
 						if(isNotEmpty(data)){
 							if((data.code).trim() == '0012'){
 								layer.msg(data.message, {
-									  time: 2000,
+									  time: 1000,
 									  anim:3  //2秒关闭（如果不配置，默认是3秒）
 									}, function(){
-										window.location.href="sys/index";
+										window.location.href="/sys/index";
 									});    
 							}else{
 								layer.msg(data.message,{anim:4, time: 1000});

@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"  pageEncoding="utf-8"%>
 <!DOCTYPE html >
 <html>
 <head>
@@ -64,47 +63,39 @@
 	
 		<!-- 内容主题 开始 -->
 		<div class="bootstrap-table">
-			  <div id="toolbar" class="form-inline">
-	            <input id="page" class="form-control" style="width: 60px" type="number" value="1" min="1" max="3">
-	            <button id="button" class="btn btn-default">selectPage</button>
-	            <button id="button2" class="btn btn-default">prevPage</button>
-	            <button id="button3" class="btn btn-default">nextPage</button>
-       		 </div>
-	        <table id="table"
-	               data-toggle="table"
-	               data-toolbar="#toolbar"
-	               data-height="460"
-	               data-url="/data/data1.json">
-	            <thead>
-		            <tr>
-		                <th data-field="state" data-checkbox="true"></th>
-		                <th data-field="id">ID</th>
-		                <th data-field="name">Item Name</th>
-		                <th data-field="price">Item Price</th>
-		            </tr>
-	            </thead>
-	        </table>
+				<table data-toggle="table">
+				    <thead>
+				        <tr>
+				        	<th class="bs-checkbox " style="text-align: center; vertical-align: middle; width: 36px; " rowspan="2" data-field="state" tabindex="0">
+				        		<div class="th-inner ">
+				        			<input name="btSelectAll" type="checkbox">
+				        		</div>
+				        		<div class="fht-cell" style="width: 35px;"></div>
+				        	</th>
+				            <th>Item ID</th>
+				            <th>Item Name</th>
+				            <th>Item Price</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr>
+				        	<td class="bs-checkbox "><input data-index="0" name="btSelectItem" type="checkbox" value="773"></td>
+				            <td>1</td>
+				            <td>Item 1</td>
+				            <td>$1</td>
+				        </tr>
+				        <tr>
+				        	<td class="bs-checkbox "><input data-index="0" name="btSelectItem" type="checkbox" value="773"></td>
+				            <td>2</td>
+				            <td>Item 2</td>
+				            <td>$2</td>
+				        </tr>
+				    </tbody>
+				</table>
+				<div class="fixed-table-pagination" style="display: block;"><div class="pull-left pagination-detail"><span class="pagination-info">Showing 51 to 60 of 800 rows</span><span class="page-list"><span class="btn-group dropup"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="page-size">10</span> <span class="caret"></span></button><ul class="dropdown-menu" role="menu"><li class="active"><a href="javascript:void(0)">10</a></li><li><a href="javascript:void(0)">25</a></li><li><a href="javascript:void(0)">50</a></li><li><a href="javascript:void(0)">100</a></li><li><a href="javascript:void(0)">All</a></li></ul></span> rows per page</span></div><div class="pull-right pagination"><ul class="pagination"><li class="page-pre"><a href="javascript:void(0)">‹</a></li><li class="page-first"><a href="javascript:void(0)">1</a></li><li class="page-first-separator disabled"><a href="javascript:void(0)">...</a></li><li class="page-number"><a href="javascript:void(0)">5</a></li><li class="page-number active"><a href="javascript:void(0)">6</a></li><li class="page-number"><a href="javascript:void(0)">7</a></li><li class="page-last-separator disabled"><a href="javascript:void(0)">...</a></li><li class="page-last"><a href="javascript:void(0)">80</a></li><li class="page-next"><a href="javascript:void(0)">›</a></li></ul></div></div>
 		</div>
 		<!-- 内容主题 结束 -->
-	<script>
-    var $table = $('#table'),
-        $page = $('#page'),
-        $button = $('#button'),
-        $button2 = $('#button2'),
-        $button3 = $('#button3');
-
-    $(function () {
-        $button.click(function () {
-            $table.bootstrapTable('selectPage', +$page.val());
-        });
-        $button2.click(function () {
-            $table.bootstrapTable('prevPage');
-        });
-        $button3.click(function () {
-            $table.bootstrapTable('nextPage');
-        });
-    });
-</script>
+	
     
 
 </body>

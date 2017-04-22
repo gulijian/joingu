@@ -3,5 +3,7 @@ package com.gulj.app.admin.web.constant;
 /**
  * Created by gulj on 2017/4/22.
  */
-public class AdminConstant {
+public interface AdminConstant {
+
+    String VIEW_ROOT = "views/";
 }
