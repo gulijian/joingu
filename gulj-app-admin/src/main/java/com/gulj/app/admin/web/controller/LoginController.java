@@ -5,8 +5,8 @@ import com.gulj.app.admin.biz.entity.Menu;
 import com.gulj.app.admin.biz.entity.User;
 import com.gulj.app.admin.biz.service.MenuService;
 import com.gulj.app.admin.biz.service.UserService;
-import com.gulj.app.admin.web.constant.FeijianCode;
-import com.gulj.app.admin.web.constant.FeijianConst;
+import com.gulj.app.admin.web.enums.FeijianCodeEnum;
+import com.gulj.app.admin.web.constant.FeijianConstant;
 import com.gulj.common.util.Const;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -45,17 +45,17 @@ public class LoginController {
             jsonObject = new JSONObject();
             User user = userService.checkUser(username, password);
             if (user == null) {//账户不存在
-                return jsonObject.parseObject(FeijianCode.USERORPWD_ERROR.toString());
+                return jsonObject.parseObject(FeijianCodeEnum.USERORPWD_ERROR.toString());
             }
             if (user.getStatus().equals("1")) {//账号被禁止
-                return jsonObject.parseObject(FeijianCode.USER_FIBINDDEN_ERROR.toString());
+                return jsonObject.parseObject(FeijianCodeEnum.USER_FIBINDDEN_ERROR.toString());
             }
             //用户信息放入session
             session.setAttribute(Const.SESSION_USER, user);
             //获取用户角色一级菜单
             List<Menu> rootMenuLst = menuService.getUserRootMenuLst(user.getSid());
             if (null == rootMenuLst && rootMenuLst.size() == 0) {
-                return jsonObject.parseObject(FeijianCode.USEROR_NONE_TOP_MENU.toString());
+                return jsonObject.parseObject(FeijianCodeEnum.USEROR_NONE_TOP_MENU.toString());
             }
             //放入session
             session.setAttribute("rootMenuLst", rootMenuLst);
@@ -64,7 +64,7 @@ public class LoginController {
             //获取一级菜单下左侧的导航的一级菜单
             List<Menu> sideBarParentMenuLst = menuService.querySideBarParentMenu(firstRootMenu.getMenuId());
             if (null == sideBarParentMenuLst && sideBarParentMenuLst.size() == 0) {
-                return jsonObject.parseObject(FeijianCode.USEROR_NONE_CHILD_MENU.toString());
+                return jsonObject.parseObject(FeijianCodeEnum.USEROR_NONE_CHILD_MENU.toString());
             }
             //放入session
             session.setAttribute("sideBarParentMenuLst", sideBarParentMenuLst);
@@ -76,10 +76,10 @@ public class LoginController {
                     }
                 }
             }
-            jsonObject = jsonObject.parseObject(FeijianCode.USEROR_LOGIN_SUCCESS.toString());
+            jsonObject = jsonObject.parseObject(FeijianCodeEnum.USEROR_LOGIN_SUCCESS.toString());
         } catch (Exception e) {
             e.printStackTrace();
-            jsonObject = jsonObject.parseObject(FeijianCode.SYS_EXCEPTION.toString());
+            jsonObject = jsonObject.parseObject(FeijianCodeEnum.SYS_EXCEPTION.toString());
         }
         return jsonObject;
     }
@@ -122,11 +122,11 @@ public class LoginController {
      */
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(HttpSession session) {
-        User user = (User) session.getAttribute(FeijianConst.SESSION_USER);
+        User user = (User) session.getAttribute(FeijianConstant.SESSION_USER);
         if (null != user) {
             return "index";
         }
-        return "login";
+        return "/views/login";
     }
 
     /**
