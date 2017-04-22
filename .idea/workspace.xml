@@ -2,502 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5fc690a-8b89-4b30-998f-ff86aaa7d7e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images/locked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images/login-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/avatar1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/avatar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/avatar3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/avatar4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/avatar5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/profile-pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/avatars/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/chosen-sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/border1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/border2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderBottomCenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderBottomLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderBottomRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderMiddleLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderMiddleRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderTopCenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderTopLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/ie6/borderTopRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/loading_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/meteorshower.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/meteorshower2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/pattern.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/spritemap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/images/spritemap@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/img/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/img/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/img/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/select2-spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/select2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/select2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/OpenSans-300.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/OpenSans-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/back_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/back_enabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/back_enabled_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/email1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/email2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/email3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/email4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/forward_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/forward_enabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/forward_enabled_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/image-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/image-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/image-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/image-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/image-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/image-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/thumb-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/thumb-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/thumb-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/thumb-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/thumb-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/gallery/thumb-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/spritemap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/images/spritemap@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/img/clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/buttons/swf/flashExport.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/moon/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_25_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/AdminConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/error.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/data/data1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/js/feijian-common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/js/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace-fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace-ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace-part2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace-skins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ace.onpage-help.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap-datepicker3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap-datetimepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap-duallistbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap-editable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap-multiselect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap-timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/colorbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/colorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/daterangepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/dropzone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/jquery-ui.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/jquery.gritter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/ace-features.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/ace-nav.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/ace-responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/ace-rtl.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/ace.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/basic.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/reset-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bootstrap/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/bs3-reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/dropdown/colorpicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/dropdown/navbar-dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/dropdown/navbar-tabbed-dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/ext/bootstrap-tag.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/fonts-rel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/fonts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/form.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/form/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/form/file.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/gallery.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/general.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/icon-animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/infobox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/items.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/label-badge.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/modal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/collapsible.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/navbar-menu-form.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/toggle-button.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/user-buttons-move-down.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/user-buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/user-dropdown-position.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/navbar/user-menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/onpage-help.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/other.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.error.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.inbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.invoice.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.login.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.pricing.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.profile.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/page.timeline.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/progressbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/scroll.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/searchbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/active.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/compact.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/ff_fix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/highlight.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/hover.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/multiple.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/old-toggle-button.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/responsive-1.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/responsive-2.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/responsive-3.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/shortcuts-toggle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/sidebar-fixed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/sidebar/sub-arrow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/skins/empty.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/skins/no-skin.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/skins/skin-1.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/skins/skin-2.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/skins/skin-3.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/skins/skins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/tab-accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-calendar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-chosen.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-colorbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-dataTables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-date.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-dropzone.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-duallist-multiselect.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-editable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-fuelux.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-gritter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-jqgrid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-jquery-ui.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-nestable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-raty.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-select2.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-slider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-typeahead.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/thirdparty-wysiwyg.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/tooltip-popover.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/utility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/less/widget.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/pace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/css/ui.jqgrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/fonts/readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace-elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace-extra.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.ajax-content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.auto-container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.auto-padding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.onpage-help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.searchbox-autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.settings-rtl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.settings-skin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.sidebar-scroll-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.sidebar-scroll-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.submenu-hover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.touch-drag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.widget-box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/ace.widget-on-reload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.aside.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.fileinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.onpage-help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.scroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/elements.wysiwyg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/ace/scripts.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/additional-methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/autosize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/bootbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/bootstrap-colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/bootstrap-multiselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/bootstrap-tag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/bootstrap-wysiwyg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/chosen.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/buttons/buttons.colVis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/buttons/buttons.flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/buttons/buttons.html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/buttons/buttons.print.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/buttons/dataTables.buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/extensions/select/dataTables.select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/jquery.dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dataTables/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/date-time/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/date-time/bootstrap-datetimepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/date-time/bootstrap-timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/date-time/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/date-time/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/flot/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/flot/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/flot/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/fuelux/fuelux.spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/fuelux/fuelux.tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/fuelux/fuelux.wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/html5shiv-printshiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-dk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-sr-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/i18n/grid.locale-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jqGrid/jquery.jqGrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery-ui.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.bootstrap-duallistbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.colorbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.easypiechart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.gritter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.hotkeys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.inputlimiter.1.3.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.maskedinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.mobile.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.mousewheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.raty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.slimscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.ui.touch-punch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/jquery1x.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/markdown/bootstrap-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/markdown/to-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/pace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/respond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/spin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/typeahead.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/x-editable/ace-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets/js/x-editable/bootstrap-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table-locale-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table-locale-all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table-mobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/bootstrap-table/bootstrap-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/mobile/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/mobile/need/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/default/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/layer/skin/moon/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/error/404.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/error/page_system_404_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/error/page_system_404_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/foot.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/head.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/public-page.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/public.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/sidebar.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/sidebar2.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/sidebar3.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/taglib.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index2.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/indexContent.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/jqgrid.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/login.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/ceshiyi/list.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/comment/list.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/department/list.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/qrcode/list.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sidebartemplate.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/employee/add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/employee/edit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/employee/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/employee/list2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/employee/list3.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/table_bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/table_jqgrid.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulj-base-adapter/src/test/java/gulj/framework/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulj-base-dependency/src/test/java/gulj/framework/AppTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/FeijianCode.java" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/enums/FeijianCodeEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/FeijianConst.java" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/FeijianConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/TestAdminBizApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/UserServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/gulj_app_admin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gulj_app_admin_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/gulj-app-admin-biz.iml" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/gulj-app-admin-biz.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin/pom.xml" afterPath="$PROJECT_DIR$/gulj-app-admin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/gulj-base-adapter/target/" />
     <ignored path="$PROJECT_DIR$/gulj-base-dependency/target/" />
@@ -534,98 +46,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/login.ftl">
+      <file leaf-file-name="UserServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAdminBizApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/TestAdminBizApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexContent.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/indexContent.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/AdminApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessParamBo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/bo/BusinessParamBo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <marker date="1492835362000" expanded="true" signature="8071:8084" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeijianConstant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/FeijianConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminConstant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/AdminConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -678,10 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/bo/BusinessParamPojo.java" />
-        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/bo/BusinessParambo.java" />
-        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/vo/ResponseResultPojo.java" />
-        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/vo/ResponseResultVo.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/sys/EmployeeController.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/FeijianCode.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/Const.java" />
@@ -713,7 +159,6 @@
         <option value="$USER_HOME$/Applications/developsoftware/apache-maven-3.3.9-repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.2.0/mybatis-spring-boot-autoconfigure-1.2.0.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class" />
         <option value="$PROJECT_DIR$/gulj-app-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gulj-common-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/bo/BusinessParamBo.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/AdminApplication.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/AdminApplication.java" />
@@ -722,13 +167,18 @@
         <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/entity/FjParamBo.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/entity/ReqParam.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/gulj-app-admin/pom.xml" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/enums/FeijianCode.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/enums/FeijianCodeEnum.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/login.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/TestAdminBizApplication.java" />
+        <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/BaseTest.java" />
+        <option value="$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/UserServiceTest.java" />
       </list>
     </option>
   </component>
@@ -864,7 +314,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-base-adapter" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -878,7 +328,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-base-adapter" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -894,7 +370,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -908,7 +384,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-base-adapter" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -949,146 +425,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1141,18 +477,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1187,18 +511,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1240,18 +552,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1263,7 +563,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1287,11 +587,11 @@
       <recent name="com.gulj.app.admin.biz.bo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources" />
       <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common" />
       <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views" />
       <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/plugins/assets" />
       <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin-biz/src/main/resources/mappers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1306,7 +606,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GuljAppAdminApplication">
+  <component name="RunManager" selected="JUnit.UserServiceTest.checkUser">
+    <configuration default="false" name="UserServiceTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.app.admin.biz.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="gulj-app-admin-biz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.app.admin.biz.test" />
+      <option name="MAIN_CLASS_NAME" value="com.app.admin.biz.test.UserServiceTest" />
+      <option name="METHOD_NAME" value="checkUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -1882,10 +1208,16 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.GuljAppAdminApplication" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.gulj-admin" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.checkUser" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest.checkUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -1908,12 +1240,17 @@
       <workItem from="1492790432681" duration="114000" />
       <workItem from="1492790577415" duration="10071000" />
       <workItem from="1492806249623" duration="1096000" />
-      <workItem from="1492833642352" duration="2055000" />
+      <workItem from="1492833642352" duration="3209000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceTest_checkUser - 2017.04.22 at 12h 53m 23s.xml">
+      <configuration name="UserServiceTest.checkUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41373000" />
+    <option name="totallyTimeSpent" value="42527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1989,35 +1326,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulj-app-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-common-util/src/main/java/com/gulj/common/tag/Trans2RMB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-common-util/src/main/java/com/gulj/common/tag/TzElseTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Applications/developsoftware/apache-maven-3.3.9-repository/junit/junit/4.12/junit-4.12.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Applications/developsoftware/apache-maven-3.3.9-repository/org/springframework/boot/spring-boot-dependencies/1.5.1.RELEASE/spring-boot-dependencies-1.5.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9139">
@@ -2132,14 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="93" column="27" lean-forward="false" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2321,14 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-base-dependency/src/test/java/gulj/framework/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2353,10 +1645,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <marker date="1492835362000" expanded="true" signature="8071:8084" ph="..." />
           </folding>
@@ -2365,11 +1667,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/AdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="215">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2381,13 +1707,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/TestAdminBizApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/test/java/com/app/admin/biz/test/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2446,11 +1790,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gulj-entity-common-bo</last-edited>
+          <last-edited>gulj-app-admin-biz</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
