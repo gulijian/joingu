@@ -203,13 +203,13 @@
 			 });
 			 if(isAddTabFlag){//添加选项卡
 				 $(".content-tabs .J_menuTabs .page-tabs-content").append(
-						 "<a href='javascript:;' class='active J_menuTab' id='"+currentMenuId+"' data-menuid='"+currentMenuId+"' data-menuurl='"+basePath+"/"+currentMenuUrl+"' onclick='changeTab(this)'>"+
+						 "<a href='javascript:;' class='active J_menuTab' id='"+currentMenuId+"' data-menuid='"+currentMenuId+"' data-menuurl='"+currentMenuUrl+"' onclick='changeTab(this)'>"+
 						 	""+currentMenuName+"<i class='fa fa-times-circle' onclick='closeTab(this)'></i>"+
 						 "</a>"
 			 	  ); 
 			 	  //添加选项卡再添加iframe，并显示
 			 	  $("#pageContentIframe").append(
-			 			 "<iframe class='yk_iframe' id='iframe_"+currentMenuId+"' name='iframe_"+currentMenuId+"' scrolling='yes'  frameborder='no' border='0' width='100%' height='80%' src='"+basePath+"/"+currentMenuUrl+"'  data-id='index_v1.html'  style='display:block'></iframe>"	  
+			 			 "<iframe class='yk_iframe' id='iframe_"+currentMenuId+"' name='iframe_"+currentMenuId+"' scrolling='yes'  frameborder='no' border='0' width='100%' height='80%' src='/"+currentMenuUrl+"'  data-id='index_v1.html'  style='display:block'></iframe>"
 			 	  );
 			 	  //其它选项卡隐藏
 			 	  $("#iframe_"+currentMenuId+"").siblings().css({"display":"none"});
@@ -318,7 +318,7 @@
 			$(obj).addClass("current-active").siblings().removeClass("current-active")
 			var currentMenuId = $(obj).data("rootmenuid")
 			$.ajax({
-				url:basePath+"/changeMenuManage",
+				url:"/changeMenuManage",
 				type:"post",
 				data:{"menuId":currentMenuId},
 				success:function(data){
