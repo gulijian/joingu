@@ -14,23 +14,26 @@
 		<div id="navbar-menu" class="navbar-buttons navbar-header pull-right" role="navigation">
 			<ul class="nav ace-nav">
 
-				<#list rootMenuLst as menu>
-				    <#if menu_index == 0>
-                        <li class="purple  current-active " data-rootMenuId="${menu.menuId?c}" onclick="changeMenuManageToShowSideBar(this);">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <i class="ace-icon fa ${menu.menuIcon!""} icon-animated-bell"></i>
-                                <span class="badge badge-important">${menu.menuName!""}</span>
-                            </a>
-                        </li>
-					<#else >
-                        <li class="purple  " data-rootMenuId="${menu.menuId?c}" onclick="changeMenuManageToShowSideBar(this);">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <i class="ace-icon fa ${menu.menuIcon!""} icon-animated-bell"></i>
-                                <span class="badge badge-important">${menu.menuName!""}</span>
-                            </a>
-                        </li>
-				    </#if>
-				</#list>
+				<#if rootMenuLst??>
+					<#list rootMenuLst as menu>
+						<#if menu_index == 0>
+                            <li class="purple  current-active " data-rootMenuId="${menu.menuId?c}" onclick="changeMenuManageToShowSideBar(this);">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <i class="ace-icon fa ${menu.menuIcon!""} icon-animated-bell"></i>
+                                    <span class="badge badge-important">${menu.menuName!""}</span>
+                                </a>
+                            </li>
+						<#else >
+                            <li class="purple  " data-rootMenuId="${menu.menuId?c}" onclick="changeMenuManageToShowSideBar(this);">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <i class="ace-icon fa ${menu.menuIcon!""} icon-animated-bell"></i>
+                                    <span class="badge badge-important">${menu.menuName!""}</span>
+                                </a>
+                            </li>
+						</#if>
+					</#list>
+				</#if>
+
 
 
 

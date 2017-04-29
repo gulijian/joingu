@@ -5,6 +5,7 @@ import com.gulj.app.admin.biz.entity.Menu;
 import com.gulj.app.admin.biz.entity.User;
 import com.gulj.app.admin.biz.service.MenuService;
 import com.gulj.app.admin.biz.service.UserService;
+import com.gulj.app.admin.web.constant.AdminConstant;
 import com.gulj.app.admin.web.enums.FeijianCodeEnum;
 import com.gulj.app.admin.web.constant.FeijianConstant;
 import com.gulj.common.util.Const;
@@ -109,7 +110,7 @@ public class LoginController {
             }
         }
         mv.addObject("sideBarParentMenuLst", sideBarParentMenuLst);
-        mv.setViewName("sys/sidebartemplate");
+        mv.setViewName(AdminConstant.VIEW_ROOT+"sys/sidebartemplate");
         return mv;
     }
 

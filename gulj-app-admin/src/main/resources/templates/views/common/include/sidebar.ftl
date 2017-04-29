@@ -17,44 +17,46 @@
 			<b class="arrow"></b>
 		</li>
 
-
+	<#if sideBarParentMenuLst??>
 		<#list  sideBarParentMenuLst as sidebarMenu>
 			<#if sidebarMenu.isParent == 0>
                 <li class="" id="yk_${sidebarMenu.menuId?c}"  data-menuurl="${sidebarMenu.menuUrl!""}" onclick="changeMenu(this,1);" >
                     <a href="javascript:void(0);">
                         <i class="menu-icon fa ${sidebarMenu.menuIcon!""}"></i>
                         <span class="menu-text">
-							${sidebarMenu.menuName!""}
+						${sidebarMenu.menuName!""}
 						</span>
                     </a>
                     <b class="arrow"></b>
                 </li>
-				<#else >
-                    <li class="" id="yk_${sidebarMenu.menuId?c}">
-                        <a href="${ctx.contextPath}/${sidebarMenu.menuUrl!""}" class="dropdown-toggle">
-                            <i class="menu-icon fa ${sidebarMenu.menuIcon!""}"></i>
-                            <span class="menu-text">
-							${sidebarMenu.menuName!""}
+			<#else >
+                <li class="" id="yk_${sidebarMenu.menuId?c}">
+                    <a href="${ctx.contextPath}/${sidebarMenu.menuUrl!""}" class="dropdown-toggle">
+                        <i class="menu-icon fa ${sidebarMenu.menuIcon!""}"></i>
+                        <span class="menu-text">
+						${sidebarMenu.menuName!""}
 									</span>
-                            <b class="arrow fa fa-angle-down"></b>
-                        </a>
-                        <b class="arrow"></b>
-                        <ul class="submenu">
-							<#list sidebarMenu.subMenu as subMenu>
-                                <li class="" id="yksub_${subMenu.menuId?c}"  data-menuurl="${subMenu.menuUrl!""}" onclick="changeMenu(this,2);">
-                                    <a href="javascript:void(0);">
-                                        <i class="menu-icon fa fa-caret-right"></i>
-                                        <span class="menu-text">
-										${subMenu.menuName!""}
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+						<#list sidebarMenu.subMenu as subMenu>
+                            <li class="" id="yksub_${subMenu.menuId?c}"  data-menuurl="${subMenu.menuUrl!""}" onclick="changeMenu(this,2);">
+                                <a href="javascript:void(0);">
+                                    <i class="menu-icon fa fa-caret-right"></i>
+                                    <span class="menu-text">
+									${subMenu.menuName!""}
 												</span>
-                                    </a>
-                                    <b class="arrow"></b>
-                                </li>
-							</#list>
-                        </ul>
-                    </li>
+                                </a>
+                                <b class="arrow"></b>
+                            </li>
+						</#list>
+                    </ul>
+                </li>
 			</#if>
 		</#list>
+	</#if>
+
 
 
 
