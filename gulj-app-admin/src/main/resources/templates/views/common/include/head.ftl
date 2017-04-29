@@ -5,7 +5,7 @@
 			<a href="#" class="navbar-brand">
 				<small>
 					<i class="fa fa-leaf"></i>
-					菲剑
+					大仙
 				</small>
 			</a>
 		</div>

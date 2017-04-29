@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <title>菲剑后台管理系统- 登录</title>
+    <title>大仙后台管理系统- 登录</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -23,14 +23,14 @@
             <div class="col-sm-7">
                 <div class="signin-info">
                     <div class="m-b"></div>
-                    <h4>欢迎来到 <strong>菲剑后台管理系统</strong></h4>
+                    <h4>欢迎来到 <strong>大仙后台管理系统</strong></h4>
                     <strong>还没有账号？ <a href="#">立即注册&raquo;</a></strong>
                 </div>
             </div>
             <div class="col-sm-5">
                 <form method="post" id="loginForm" >
                     <h4 class="no-margins">登录：</h4>
-                    <p class="m-t-md">登录菲剑后台管理系统</p>
+                    <p class="m-t-md">登录大仙后台管理系统</p>
                     <input type="text" id="username" class="form-control uname" placeholder="用户名" />
                     <input type="password" id="password" class="form-control pword m-b" placeholder="密码" />
                     <a href="">忘记密码了？</a>
@@ -40,7 +40,7 @@
         </div>
         <div class="signup-footer">
             <div class="pull-left">
-                &copy; 2016 All Rights Reserved. 菲剑
+                &copy; 2016 All Rights Reserved. 大仙
             </div>
         </div>
     </div>
