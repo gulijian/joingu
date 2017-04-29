@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>员工管理</title>
 	<link rel="shortcut icon" href="favicon.ico">
-   	<%@include file="/WEB-INF/include/public-page.jsp" %>
+	<#include "/views/common/include/public-page.ftl">
 	<style type="text/css">
 		.page-content-search-header{padding:10px;}
-		.header-toolbar{float: left; position: absolute;  margin-left: -260px;  margin-top: 9px;}
+		.header-toolbar{float: left; position: absolute;   margin-top: 9px;}
 	</style>
 </head>
 
@@ -78,7 +78,7 @@
 			    pagination: true, //分页
 			    paginationLoop:true,
 			    clickToSelect: true, //是否启用点击选中行
-			    height: 725,  //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
+			    height: 555,  //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
 	            pageNumber:1,
 			    singleSelect: false,
 			    showRefresh: true,     //是否显示刷新按钮
@@ -86,7 +86,7 @@
 			    striped: true, //是否显示行间隔色
 			    //queryParams: queryParams,//前端调用服务时，会默认传递上边提到的参数，如果需要添加自定义参数，可以自定义一个函数返回请求参数
 			    queryParamsType:"",//默认值为 'limit' ,在默认情况下 传给服务端的参数为：offset,limit,sort  // 设置为 ''  在这种情况下传给服务器的参数为：pageSize,pageNumber
-			    pageSize: 14,
+			    pageSize: 10,
 			    pageList:[10,14,25],
 			    sidePagination: "server", //服务端请求
 			    search: false, //不显示搜索框
