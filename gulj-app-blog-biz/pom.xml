@@ -36,6 +36,12 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>gulj.common</groupId>
+            <artifactId>gulj-entity-common-bo</artifactId>
+        </dependency>
+
+
         <!-- Spring Boot Dubbo 依赖 -->
         <dependency>
             <groupId>io.dubbo.springboot</groupId>
