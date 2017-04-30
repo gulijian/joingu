@@ -1,4 +1,3 @@
-com/gulj/app/admin/biz/bo/FjParamBo.class
 com/gulj/app/admin/biz/entity/User.class
 com/gulj/app/admin/biz/mapper/UserMapper.class
 com/gulj/app/admin/biz/service/MenuService.class

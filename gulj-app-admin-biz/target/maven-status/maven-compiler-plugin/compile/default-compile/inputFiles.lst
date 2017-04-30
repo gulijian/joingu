@@ -1,9 +1,9 @@
+/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/entity/ReqParam.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/mapper/MenuMapper.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/service/MenuService.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/service/UserService.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/config/AdminBizConfig.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/mapper/UserMapper.java
-/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/bo/FjParamBo.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/entity/Role.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/entity/Menu.java
 /Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/entity/User.java
