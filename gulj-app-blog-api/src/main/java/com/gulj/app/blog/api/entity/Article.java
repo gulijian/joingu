@@ -9,7 +9,7 @@ import java.util.Date;
  * @create 2017-04-30 下午3:52
  **/
 @Data
-public class Article {
+public class Article  implements  java.io.Serializable{
 
     private Long id;
     private String title;

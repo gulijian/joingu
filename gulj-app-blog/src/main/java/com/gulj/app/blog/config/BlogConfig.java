@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  **/
 
 @Configuration
-@ComponentScan(basePackages = {"com.gulj.app.blog.web"}, nameGenerator = JoinAnnotationBeanNameGenerator.class)
+//@ComponentScan(basePackages = {"com.gulj.app.blog.web"}, nameGenerator = JoinAnnotationBeanNameGenerator.class)
 public class BlogConfig extends WebMvcConfigurerAdapter {
 
 

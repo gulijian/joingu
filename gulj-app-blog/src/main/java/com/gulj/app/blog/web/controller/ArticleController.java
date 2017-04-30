@@ -17,7 +17,7 @@ public class ArticleController {
 
 
     @Reference(version = "1.0.0")
-    private ArticleService articleService;
+    ArticleService articleService;
 
 
     @GetMapping("/getById")
