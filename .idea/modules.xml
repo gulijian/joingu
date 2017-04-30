@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gulj-app-admin/gulj-app-admin.iml" filepath="$PROJECT_DIR$/gulj-app-admin/gulj-app-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-app-admin-biz/gulj-app-admin-biz.iml" filepath="$PROJECT_DIR$/gulj-app-admin-biz/gulj-app-admin-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-app-blog/gulj-app-blog.iml" filepath="$PROJECT_DIR$/gulj-app-blog/gulj-app-blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-app-blog-api/gulj-app-blog-api.iml" filepath="$PROJECT_DIR$/gulj-app-blog-api/gulj-app-blog-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulj-app-blog-biz/gulj-app-blog-biz.iml" filepath="$PROJECT_DIR$/gulj-app-blog-biz/gulj-app-blog-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-app-parent/gulj-app-parent.iml" filepath="$PROJECT_DIR$/gulj-app-parent/gulj-app-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-assembly-email/gulj-assembly-email.iml" filepath="$PROJECT_DIR$/gulj-assembly-email/gulj-assembly-email.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulj-assembly-parent/gulj-assembly-parent.iml" filepath="$PROJECT_DIR$/gulj-assembly-parent/gulj-assembly-parent.iml" />

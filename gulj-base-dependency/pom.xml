@@ -131,6 +131,24 @@
                 <version>${gulj.app.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>gulj.app</groupId>
+                <artifactId>gulj-app-blog</artifactId>
+                <version>${gulj.app.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>gulj.app</groupId>
+                <artifactId>gulj-app-blog-api</artifactId>
+                <version>${gulj.app.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>gulj.app</groupId>
+                <artifactId>gulj-app-blog-biz</artifactId>
+                <version>${gulj.app.version}</version>
+            </dependency>
+
 
 
             <dependency>

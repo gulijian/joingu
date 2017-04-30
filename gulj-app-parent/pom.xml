@@ -17,6 +17,9 @@
     <modules>
         <module>../gulj-app-admin</module>
         <module>../gulj-app-admin-biz</module>
+        <module>../gulj-app-blog</module>
+        <module>../gulj-app-blog-biz</module>
+        <module>../gulj-app-blog-api</module>
     </modules>
 
 

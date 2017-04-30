@@ -9,6 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gulj-app-admin" />
         <module name="gulj-app-admin-biz" />
+        <module name="gulj-app-blog" />
+        <module name="gulj-app-blog-api" />
+        <module name="gulj-app-blog-biz" />
         <module name="gulj-common-util" />
         <module name="gulj-entity-common" />
         <module name="gulj-entity-common-bo" />
@@ -20,6 +23,9 @@
       <module name="gulj-app-admin" target="1.8" />
       <module name="gulj-app-admin-biz" target="1.8" />
       <module name="gulj-app-admin1" target="1.8" />
+      <module name="gulj-app-blog" target="1.8" />
+      <module name="gulj-app-blog-api" target="1.8" />
+      <module name="gulj-app-blog-biz" target="1.8" />
       <module name="gulj-app-parent" target="1.8" />
       <module name="gulj-assembly-email" target="1.8" />
       <module name="gulj-assembly-parent" target="1.8" />

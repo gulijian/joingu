@@ -4,12 +4,16 @@
     <file type="web" url="file://$PROJECT_DIR$/gulj-admin" />
     <file type="web" url="file://$PROJECT_DIR$/gulj-app-admin" />
     <file type="web" url="file://$PROJECT_DIR$/gulj-app-admin1" />
+    <file type="web" url="file://$PROJECT_DIR$/gulj-app-blog" />
+    <file type="web" url="file://$PROJECT_DIR$/gulj-app-blog-biz" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/gulj-base-adapter/pom.xml" />
         <option value="$PROJECT_DIR$/gulj-app-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/gulj-app-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/gulj-app-blog-biz/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
