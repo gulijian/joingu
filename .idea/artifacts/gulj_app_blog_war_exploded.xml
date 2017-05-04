@@ -15,7 +15,6 @@
             <element id="module-output" name="gulj-entity-common-bo" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.5.1.RELEASE" />
@@ -52,6 +51,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.22" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">

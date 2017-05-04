@@ -1,6 +1,5 @@
-package com.gulj.app.blog.biz;
+package com.gulj.app.blog;
 
-import com.gulj.app.blog.biz.GuljAppBlogBizApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
