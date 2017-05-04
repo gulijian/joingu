@@ -10,6 +10,7 @@
           <element id="archive" name="gulj-app-blog-api-1.0-SNAPSHOT.jar">
             <element id="module-output" name="gulj-app-blog-api" />
           </element>
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="archive" name="gulj-entity-common-bo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="gulj-entity-common-bo" />
           </element>

@@ -10,6 +10,7 @@
           <element id="archive" name="gulj-app-blog-api-1.0-SNAPSHOT.jar">
             <element id="module-output" name="gulj-app-blog-api" />
           </element>
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="archive" name="gulj-entity-common-bo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="gulj-entity-common-bo" />
           </element>
@@ -48,6 +49,23 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.22" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.2.0" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.5.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.11" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.11" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.2.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
+          <element id="library" level="project" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.5" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-starter:1.0.0" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:1.0.0" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.3.9" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.1.0" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.1.0" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.0.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
         </element>
       </element>
