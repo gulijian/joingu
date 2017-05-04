@@ -1,22 +1,31 @@
 package com.gulj.app.blog.api.entity;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
-import javax.persistence.*;
 
 @Table(name = "sys_menu")
+@ApiModel
 public class SysMenu implements Serializable {
     @Id
     private Integer id;
 
+    @ApiModelProperty(value = "菜单名称")
     private String name;
 
+    @ApiModelProperty(value = "菜单url")
     private String url;
 
     /**
      * 所有的父节点
      */
     @Column(name = "parent_id")
+    @ApiModelProperty(value = "菜单的父级元素")
     private String parentId;
 
     @Column(name = "parent_ids")
