@@ -1,0 +1,328 @@
+body {
+    background-color: #eee;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.layui-nav {
+    padding: 0px 25px;
+    border-radius: 0px;
+    background-color: #2a2b2b;
+    font-size: 39px;
+}
+
+.layui-nav * {
+    font-size: 16px;
+}
+
+header .container-inner {
+    background-color: #1abc9c;
+    height: 85px;
+}
+
+.mainbody {
+    /*border: 1px solid red;*/
+    width: 96%;
+    margin: 0px auto;
+}
+
+.mainbody .noticebar {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+/* banner image control start*/
+.carousel-control {
+    margin-top: 0px;
+  font-size: 44px!important;
+  transition: background .8s;
+}
+.carousel-control:hover{
+  background: #fff!important;
+  color: red!important;
+}
+/* banner image control end */
+
+
+/*banner图侧面开始*/
+
+.mainbody .g-profile {
+    height: 330px;
+    width: 29%;
+    float: right;
+    margin: 10px 0px;
+    background-color: #eee
+}
+
+.mainbody .g-profile .social {
+    padding: 10px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mainbody .g-profile .social .weibo {
+    background-color: #f78585;
+    margin-left: 3px;
+}
+
+.mainbody .g-profile .social .weixins {
+    background-color: #6fc299;
+    padding: 3px;
+}
+
+.mainbody .g-profile .social .githubs {
+    background-color: #ff7c49;
+    padding: 3px 9px;
+}
+
+.mainbody .g-profile .social .qqs {
+    background-color: #e74c3c;
+}
+
+.mainbody .g-profile .social a {
+    color: #fff;
+    width: 23%;
+    display: inline-block;
+}
+
+.mainbody .g-profile .social a i {
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.mainbody .g-profile .motto {
+    height: 264px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.mainbody .article_list {
+    width: 70%;
+    float: left;
+
+}
+
+.mainbody .article_list .excerpt {
+    background-color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 15px 0px 10px;
+    overflow: hidden;
+}
+
+.mainbody .article_list .excerpt header h2 {
+    height: 20px;
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.mainbody .article_list .excerpt header h2 a {
+    color: #00a67c;
+    text-decoration: none;
+}
+
+.mainbody .article_list .excerpt header h2 a:hover{
+  color: : #1abc9c;
+  transition: .5s;
+}
+
+.mainbody .article_list .excerpt .g_focus {
+    height: 135px;
+    width: 26%;
+    margin: 20px 0px;
+    float: left;
+}
+
+.mainbody .article_list .excerpt .g_focus .thumb {
+    width: 100%;
+    height: 135px;
+}
+
+.mainbody .article_list .excerpt .note {
+    color: #777;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+
+}
+
+.mainbody .article_list .excerpt .auth-span {
+    color: #000;
+    float: right;
+    margin: -28px 20px;
+    font-size: 14px;
+}
+
+.mainbody .article_list .excerpt .auth-span span {
+    margin-left: 10px;
+}
+
+.mainbody .article_list .excerpt .auth-span span:nth-child(3) a {
+    color: #007046;
+}
+
+.mainbody .article_list .excerpt .auth-span span:last-child a {
+    color: #f17067;
+}
+
+.mainbody .article_list .g_propagation {
+    height: 50px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+
+/**
+ * sidbar 开始
+ */
+
+.mainbody .g-sidebar {
+    width: 29%;
+    float: right;
+}
+
+.mainbody .g-sidebar .g-widget {
+    /*height: 300px;*/
+    width: 100%;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.mainbody .g-sidebar .g-widget:first-child {
+    margin-top: -20px;
+}
+
+.mainbody .g-sidebar .g-widget:not(:first-child) {
+    margin-top: -10px;
+}
+
+.mainbody .g-sidebar .g-widget .title {
+    border-bottom: 1px solid #90bba8;
+    margin: 5px 20px;
+    height: 45px;
+    line-height: 45px
+}
+
+.mainbody .g-sidebar .g-widget .title h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #1abc9c;
+    line-height: 45px;
+}
+
+.mainbody .g-sidebar .g-tag .g-tags {
+    height: 200px;
+    padding: 3px 20px;
+}
+
+.mainbody .g-sidebar .g-tag .g-tags button {
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 49%;
+}
+
+.mainbody .g-sidebar .g-guess-like .content {
+    padding: 3px 20px;
+}
+
+.mainbody .g-sidebar .g-guess-like .content li {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 19px;
+}
+
+.mainbody .g-sidebar .g-guess-like .content li a {
+    text-decoration: none;
+    color: #00a67c;
+    font-size: 14px;
+}
+
+.mainbody .g-sidebar .g-guess-like .content li a:hover {
+    color: rgba(255, 0, 0, 0.61);
+}
+
+.mainbody .g-sidebar .g-guess-like .content li .note-thume {
+    float: left;
+    margin-right: 5px;
+}
+
+.mainbody .g-sidebar .g-guess-like .content li .note-title {
+    display: block;
+    margin: 13px 0 0 0;
+    max-height: 39px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.mainbody .g-sidebar .g-guess-like .content li .note-time {
+    position: relative;
+    top: 9px;
+    color: #999;
+}
+
+.mainbody .g-sidebar .g-guess-like .content li .note-commet {
+    float: right;
+    position: relative;
+    top: 9px;
+    color: #999;
+}
+
+
+
+/* 最近评论 start*/
+.mainbody  .g-sidebar .new-article-comment{
+    padding-bottom: 10px;
+
+}
+.mainbody  .g-sidebar .new-article-comment .content{
+    padding: 3px 20px;
+}
+.mainbody  .g-sidebar .new-article-comment .content ul li{
+    padding: 10px 0px;
+}
+.mainbody  .g-sidebar .new-article-comment .content ul li a .commet{
+    border: 1px solid #eee;
+    width: 78%;
+    float: right;
+    padding: 0px;
+    border-radius: 5px;
+}
+.mainbody  .g-sidebar .new-article-comment .content ul li a .commet div{
+      margin: 3px 0px;
+      border: 0px;
+      text-align: left;
+      padding: 0px 3px;
+      color: rgba(0,0,0,.5);
+      background-color: #fbfdfb;
+}
+.mainbody  .g-sidebar .new-article-comment .content ul li a .commet div span lable{
+    color: #00a67c;
+}
+
+/* 最近评论 end*/
+
+/* 友情链接 start*/
+.mainbody .g-sidebar .g-link{
+  margin-bottom: 10px;
+}
+.mainbody .g-sidebar .g-link .g-links {
+    padding: 3px 20px;
+}
+.mainbody .g-sidebar .g-link .g-links li {
+    float: left;
+    width: 50%;
+    padding: 10px 3px;
+}
+.mainbody .g-sidebar .g-link .g-links li a {
+    color: #00a67c;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* 友情链接 end*/

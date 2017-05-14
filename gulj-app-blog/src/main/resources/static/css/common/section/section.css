@@ -1,0 +1,11 @@
+.mainbody {
+    /*border: 1px solid red;*/
+    width: 96%;
+    margin: 0px auto;
+}
+
+.mainbody .noticebar {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}

@@ -1,0 +1,114 @@
+.g-contentwrap {
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+}
+
+
+/* content-header start*/
+
+.g-contentwrap .g-archive-header {
+    background-color: #fff;
+    padding: 15px 20px;
+}
+
+.g-contentwrap .g-archive-header h1 {
+    font-size: 22px;
+    color: #7a6f6f;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.g-contentwrap .g-archive-header h1 .g-rss {
+    color: #f58128
+}
+
+
+/* content-header end */
+
+
+/* content-article-list start */
+
+.g-contentwrap .article_list {
+    /*border: 1px solid red;*/
+    margin-top: 10px;
+}
+
+.g-contentwrap .article_list .excerpt {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 20px 15px 0px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.g-contentwrap .article_list .excerpt header {
+    margin: 0 0px 15px 0;
+    /*border: 1px solid red;*/
+}
+
+.g-contentwrap .article_list .excerpt header h2 {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    top: 1px;
+    line-height: 25px;
+}
+
+.g-contentwrap .article_list .excerpt header h2 a {
+    text-decoration: none;
+    color: #00a67c;
+}
+
+.g-contentwrap .article_list .excerpt .g_focus {
+    float: left;
+    width: 26%;
+    height: 135px;
+}
+
+.g-contentwrap .article_list .excerpt .g_focus .thumb {
+    width: 100%;
+    height: 100%;
+}
+
+.g-contentwrap .article_list .excerpt .note {
+    color: #777;
+    width: 73%;
+    display: block;
+    float: right;
+    height: 120px;
+    overflow: hidden;
+}
+
+.g-contentwrap .article_list .excerpt .auth-span {
+  float: right;
+}
+
+.g-contentwrap .article_list .excerpt .auth-span span {
+    margin-left: 10px;
+}
+
+.g-contentwrap .article_list .excerpt .auth-span span:nth-child(3) a {
+    color: #007046;
+}
+.g-contentwrap .article_list .excerpt .auth-span span:nth-child(3) a:hover {
+    text-decoration: none;
+    color: #31ab59;
+}
+
+.g-contentwrap .article_list .excerpt .auth-span span:last-child a {
+    color: #f17067;
+}
+.g-contentwrap .article_list .excerpt .auth-span span:last-child a:hover{
+    text-decoration: none;
+}
+
+/*content-article-list end */
+
+/* g_propagation start */
+.mainbody  .g_propagation {
+    height: 50px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+/* g_propagation end */

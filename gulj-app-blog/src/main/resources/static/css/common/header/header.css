@@ -1,0 +1,20 @@
+body {
+    background-color: #eee;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.layui-nav {
+    padding: 0px 25px;
+    border-radius: 0px;
+    background-color: #2a2b2b;
+    font-size: 39px;
+}
+
+.layui-nav * {
+    font-size: 16px;
+}
+
+header .container-inner {
+    background-color: #1abc9c;
+    height: 85px;
+}
