@@ -1,6 +1,7 @@
 package com.gulj.app.blog.api.service;
 
 import com.gulj.app.blog.api.entity.BlogCategory;
+import com.gulj.app.blog.api.vo.BlogCategoryVo;
 
 import java.util.List;
 
@@ -25,6 +26,13 @@ public interface BlogCategoryService {
      * @return
      */
     List<BlogCategory> querySubBlogCategory(long parentCategoryId);
+
+    /**
+     * 获取分类列表
+     *
+     * @return
+     */
+    List<BlogCategoryVo> list();
 
 
 }

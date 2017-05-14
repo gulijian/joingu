@@ -4,7 +4,11 @@
         <h1 style="text-align:center;font-family:cursive;text-shadow:6px 2px 2px #333;color:#f3eaef;font-size:48px;position:relative;top:10px;margin:0px;">顾大仙博客</h1>
     </div>
 
-
+    <#if blogCategoryVoList??>
+        <#list blogCategoryVoList as blog>
+            ${blog.id!""}
+        </#list>
+    </#if>
     <div class="g_nav">
         <ul class="layui-nav" lay-filter="g-nav-filter">
             <li class="layui-nav-item" data-tab="index"><a href="index.html">首页</a></li>
@@ -27,7 +31,8 @@
 
 <script>
     $(function () {
-        alert("dfdsf");
+
+
     })
 </script>
 
