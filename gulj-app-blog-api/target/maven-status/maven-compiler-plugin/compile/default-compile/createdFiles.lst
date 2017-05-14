@@ -1,2 +1,5 @@
+com/gulj/app/blog/api/entity/SysMenu.class
+com/gulj/app/blog/api/service/SysMenuService.class
 com/gulj/app/blog/api/entity/Article.class
+com/gulj/app/blog/api/entity/SysUser.class
 com/gulj/app/blog/api/service/ArticleService.class

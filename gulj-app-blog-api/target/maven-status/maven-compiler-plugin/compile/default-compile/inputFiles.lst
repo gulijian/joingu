@@ -1,2 +1,5 @@
-/Users/newchama/Documents/E/workspace-ide/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/Article.java
-/Users/newchama/Documents/E/workspace-ide/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/ArticleService.java
+/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/SysMenu.java
+/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/SysMenuService.java
+/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/Article.java
+/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/ArticleService.java
+/Users/gulj/Documents/E/workspace_idea/joingu/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/SysUser.java
