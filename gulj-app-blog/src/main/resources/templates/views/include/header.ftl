@@ -24,3 +24,19 @@
         </ul>
     </div>
 </header>
+
+<script>
+    $(function () {
+        alert("dfdsf");
+    })
+</script>
+
+
+
+
+
+
+
+
+
+

@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @create 2017-05-14 下午3:14
  **/
 @Controller
-public class IndexController {
-
+public class BlogIndexController {
 
     @RequestMapping("/index")
     public String index() {

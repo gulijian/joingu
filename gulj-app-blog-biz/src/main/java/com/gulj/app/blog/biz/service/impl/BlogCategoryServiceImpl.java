@@ -5,7 +5,6 @@ import com.gulj.app.blog.api.entity.BlogCategory;
 import com.gulj.app.blog.api.service.BlogCategoryService;
 import com.gulj.app.blog.biz.mapper.BlogCategoryMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import sun.tools.tree.AndExpression;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -33,7 +32,7 @@ public class BlogCategoryServiceImpl implements BlogCategoryService {
     @Override
     public List<BlogCategory> querySubBlogCategory(long parentCategoryId) {
         Example example = new Example(BlogCategory.class);
-        example.createCriteria().andEqualTo("isParent", 1)
+        example.createCriteria().andEqualTo("isParent", 0)
                 .andEqualTo("parentId", parentCategoryId)
                 .andEqualTo("isDelete", 0)
                 .andEqualTo("isShow", 1);
