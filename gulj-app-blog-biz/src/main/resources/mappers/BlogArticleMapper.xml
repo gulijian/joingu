@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulj.app.blog.biz.mapper.BlogArticleMapper">
+  <resultMap id="BaseResultMap" type="com.gulj.app.blog.api.entity.BlogArticle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="sys_user_id" jdbcType="INTEGER" property="sysUserId" />
+    <result column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="cover" jdbcType="VARCHAR" property="cover" />
+    <result column="love" jdbcType="BIGINT" property="love" />
+    <result column="hot" jdbcType="BIGINT" property="hot" />
+    <result column="is_show" jdbcType="BIT" property="isShow" />
+    <result column="is_delete" jdbcType="BIT" property="isDelete" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>
