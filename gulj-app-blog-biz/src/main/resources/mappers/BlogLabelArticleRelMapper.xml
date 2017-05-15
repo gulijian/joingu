@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulj.app.blog.biz.mapper.BlogLabelArticleRelMapper">
+  <resultMap id="BaseResultMap" type="com.gulj.app.blog.api.entity.BlogLabelArticleRel">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="label_id" jdbcType="INTEGER" property="labelId" />
+    <result column="article_id" jdbcType="INTEGER" property="articleId" />
+  </resultMap>
+</mapper>

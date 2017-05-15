@@ -13,6 +13,8 @@
     <result column="cover" jdbcType="VARCHAR" property="cover" />
     <result column="love" jdbcType="BIGINT" property="love" />
     <result column="hot" jdbcType="BIGINT" property="hot" />
+    <result column="comment" jdbcType="BIGINT" property="comment" />
+    <result column="is_recommed" jdbcType="TINYINT" property="isRecommed" />
     <result column="is_show" jdbcType="BIT" property="isShow" />
     <result column="is_delete" jdbcType="BIT" property="isDelete" />
     <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
