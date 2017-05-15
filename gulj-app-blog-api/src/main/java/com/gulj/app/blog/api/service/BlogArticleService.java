@@ -1,6 +1,8 @@
 package com.gulj.app.blog.api.service;
 
-import com.gulj.app.blog.api.entity.Article;
+import com.gulj.app.blog.api.entity.BlogArticle;
+
+import java.util.List;
 
 /**
  * 文章dubbo服务层
@@ -8,7 +10,7 @@ import com.gulj.app.blog.api.entity.Article;
  * @author gulj
  * @create 2017-04-30 下午3:07
  **/
-public interface ArticleService {
+public interface BlogArticleService {
 
     /**
      * 根据文章id获取文章
@@ -16,6 +18,12 @@ public interface ArticleService {
      * @param id
      * @return
      */
-    Article getById(Long id);
+    BlogArticle getById(Integer id);
+
+    /**
+     * 获取文章列表
+     * @return
+     */
+    List<BlogArticle> queryList();
 
 }

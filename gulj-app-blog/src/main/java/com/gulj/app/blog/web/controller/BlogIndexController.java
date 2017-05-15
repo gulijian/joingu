@@ -1,6 +1,8 @@
 package com.gulj.app.blog.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.gulj.app.blog.api.entity.BlogArticle;
+import com.gulj.app.blog.api.service.BlogArticleService;
 import com.gulj.app.blog.api.service.BlogCategoryService;
 import com.gulj.app.blog.api.vo.BlogCategoryVo;
 import org.springframework.stereotype.Controller;
@@ -20,6 +22,9 @@ public class BlogIndexController {
     @Reference(version = "1.0.0")
     private BlogCategoryService blogCategoryService;
 
+    @Reference(version = "1.0.0")
+    private BlogArticleService blogArticleService;
+
     @RequestMapping("/index")
     public ModelAndView index(HttpSession session) {
         ModelAndView mv = new ModelAndView();
@@ -29,6 +34,9 @@ public class BlogIndexController {
             blogCategoryVoList = blogCategoryService.list();
             session.setAttribute("blogCategoryVoList", blogCategoryVoList);
         }
+        //文章列表
+        List<BlogArticle> blogArticleList = blogArticleService.queryList();
+        mv.addObject("blogArticleList",blogArticleList);
         mv.setViewName("views/index");
         return mv;
     }

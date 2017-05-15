@@ -99,347 +99,41 @@
 
     <!-- 文章列表 start -->
     <div class="article_list">
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="bigdata.html" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
+        <#if blogArticleList??>
+            <#list  blogArticleList as blogArticle>
+                <artice class="excerpt">
+                    <header>
+                        <a href="#">
+                            <i class='artice_label'>免费资源</i>
+                        </a>
+                        <h2>
+                            <a href="bigdata.html" target="_blank">${blogArticle.title}</a>
+                        </h2>
+                    </header>
+                    <div class="g_focus">
+                        <a href="#" target="_blank">
+                            <img src="images/1.jpg" alt="图片" class="thumb">
+                        </a>
+                    </div>
+                    <span class="note">
+                        ${blogArticle.content}
                     </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
+                    <div style="clear:both"></div>
+                    <p class="auth-span">
+                        <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
+                        <span><i class="fa fa-eye"></i>&nbsp; ${blogArticle.hot}℃</span>
+                        <span>
                     <i class="fa fa-comment-o"></i>&nbsp;
                     <a href="#">15评论</a>
                 </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
+                        <span>
+                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp; ${blogArticle.love}喜欢</a>
                 </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
-        <artice class="excerpt">
-            <header>
-                <a href="#">
-                    <i class='artice_label'>免费资源</i>
-                </a>
-                <h2>
-                    <a href="#" target="_blank">WP教程WordPress绑定多个域名和禁止搜索引擎收录非主域名的方法11111</a>
-                </h2>
-            </header>
-            <div class="g_focus">
-                <a href="#" target="_blank">
-                    <img src="images/1.jpg" alt="图片" class="thumb">
-                </a>
-            </div>
-            <span class="note">
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-                  最近在弄一个WordPress外贸企业站，遇到了一些问题，发出来给大家参考一下。 WordPress绑定多个域名 客户网站绑定了多个域名，部分域名都直接做301重定向跳转到主域名。但是客户的主域名在做Google AdWords推广的时候被封禁了，所以要求启用其他域名绑定来做Go...
-              </span>
-            <div style="clear:both"></div>
-            <p class="auth-span">
-                <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
-                <span><i class="fa fa-eye"></i>&nbsp;4963℃</span>
-                <span>
-                    <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
-                </span>
-                <span>
-                    <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;54喜欢</a>
-                </span>
-            </p>
-            <div style="clear:both"></div>
-        </artice>
-
+                    </p>
+                    <div style="clear:both"></div>
+                </artice>
+            </#list>
+        </#if>
 
         <!-- 分页 start -->
         <div class="g_propagation">
