@@ -85,6 +85,8 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.3" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.25" />
         </element>
       </element>
       <element id="directory" name="META-INF">

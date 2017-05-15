@@ -9,4 +9,11 @@ import lombok.Data;
  **/
 @Data
 public class BlogArticleListVo extends BlogArticle {
+
+    private Integer stand;//标准分数
+
+    private Integer categoryId;//分类id
+
+    private String categoryName;//分类名称
+
 }

@@ -24,12 +24,23 @@
 
 
     <!--分页查询首页的文章列表-->
-    <select id="listPageIndex" parameterType="com.gulj.app.blog.api.bo.BusinessParamBo" resultType="com.gulj.app.blog.api.vo.BlogArticleListVo">
-
-
-
-
-
+    <select id="queryListPageIndexInfo" parameterType="com.gulj.app.blog.api.bo.BusinessParamBo" resultType="com.gulj.app.blog.api.vo.BlogArticleListVo">
+        select baseData.stand,bc.id as categoryId,bc.name as categoryName, ba.* from(
+            SELECT
+                id ,
+                sum(hot + love + COMMENT) stand ,
+                create_time
+            FROM
+                blog_article
+            GROUP BY
+                id
+            HAVING
+                stand > #{stand}
+            ORDER BY
+                create_time
+        ) baseData
+         inner join  (select * from blog_article where is_recommed = 1 and is_show=1 and is_delete = 0 ) ba on ba.id = baseData.id
+         inner join  blog_category bc on ba.category_id = bc.id
     </select>
 
 

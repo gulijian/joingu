@@ -1,10 +1,14 @@
 package com.gulj.app.blog.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.gulj.app.blog.api.entity.BlogArticle;
+import com.github.pagehelper.PageInfo;
+import com.gulj.app.blog.api.bo.BusinessParamBo;
+import com.gulj.app.blog.api.bo.PageParamBo;
 import com.gulj.app.blog.api.service.BlogArticleService;
 import com.gulj.app.blog.api.service.BlogCategoryService;
+import com.gulj.app.blog.api.vo.BlogArticleListVo;
 import com.gulj.app.blog.api.vo.BlogCategoryVo;
+import com.gulj.app.blog.api.vo.JoinGuPageVo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -35,8 +39,17 @@ public class BlogIndexController {
             session.setAttribute("blogCategoryVoList", blogCategoryVoList);
         }
         //文章列表
-        List<BlogArticle> blogArticleList = blogArticleService.queryList();
-        mv.addObject("blogArticleList",blogArticleList);
+        PageInfo<BlogArticleListVo> list = blogArticleService.listPageIndex(new BusinessParamBo(), new PageParamBo());
+        JoinGuPageVo joinGuPageVo = null;
+        if (null != list) {
+            joinGuPageVo = new JoinGuPageVo();
+            joinGuPageVo.setPage(list.getPageNum());
+            joinGuPageVo.setTotal(list.getTotal());
+            joinGuPageVo.setTotalPage(list.getPages());
+            List<BlogArticleListVo> appUserLst = list.getList();
+            joinGuPageVo.setRows(appUserLst);
+        }
+        mv.addObject("joinGuPageVo", joinGuPageVo);
         mv.setViewName("views/index");
         return mv;
     }

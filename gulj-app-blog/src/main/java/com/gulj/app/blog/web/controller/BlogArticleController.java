@@ -10,6 +10,8 @@ import com.gulj.app.blog.api.vo.BlogArticleListVo;
 import com.gulj.app.blog.api.vo.JoinGuPageVo;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * @author gulj
  * @create 2017-04-30 下午3:10
@@ -46,7 +48,16 @@ public class BlogArticleController {
     @PostMapping("/listPage")
     @ResponseBody
     public JoinGuPageVo listPage(BusinessParamBo businessParamBo, PageParamBo pageParamBo) {
-        PageInfo<BlogArticleListVo> pageInfo = articleService.listPageIndex(businessParamBo, pageParamBo);
+        PageInfo<BlogArticleListVo> list = articleService.listPageIndex(businessParamBo, pageParamBo);
+        if (null != list) {
+            JoinGuPageVo joinGuPageVo = new JoinGuPageVo();
+            joinGuPageVo.setPage(list.getPageNum());
+            joinGuPageVo.setTotal(list.getTotal());
+            joinGuPageVo.setTotalPage(list.getPages());
+            List<BlogArticleListVo> appUserLst = list.getList();
+            joinGuPageVo.setRows(appUserLst);
+            return joinGuPageVo;
+        }
         return null;
     }
 
