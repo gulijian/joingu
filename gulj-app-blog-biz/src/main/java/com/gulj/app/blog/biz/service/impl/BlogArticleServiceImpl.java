@@ -1,8 +1,13 @@
 package com.gulj.app.blog.biz.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.gulj.app.blog.api.bo.BusinessParamBo;
+import com.gulj.app.blog.api.bo.PageParamBo;
 import com.gulj.app.blog.api.entity.BlogArticle;
 import com.gulj.app.blog.api.service.BlogArticleService;
+import com.gulj.app.blog.api.vo.BlogArticleListVo;
 import com.gulj.app.blog.biz.mapper.BlogArticleMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -29,5 +34,13 @@ public class BlogArticleServiceImpl implements BlogArticleService {
     @Override
     public List<BlogArticle> queryList() {
         return mapper.selectAll();
+    }
+
+    @Override
+    public PageInfo<BlogArticleListVo> listPageIndex(BusinessParamBo businessParamBo, PageParamBo pageParamBo) {
+        //判断是否含有排序的字符串
+        PageHelper.startPage(pageParamBo.getPageNumber(), pageParamBo.getPageSize());
+        List<BlogArticleListVo> resultList = mapper.queryListPageIndexInfo(businessParamBo);
+        return new PageInfo<>(resultList);
     }
 }

@@ -29,6 +29,10 @@
           <element id="library" level="project" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE" />
           <element id="library" level="project" name="Maven: io.springfox:springfox-swagger-ui:2.2.2" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.1.0" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.1.0" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.0.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
           <element id="archive" name="gulj-entity-common-bo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="gulj-entity-common-bo" />
           </element>
@@ -78,10 +82,6 @@
           <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-starter:1.0.0" />
           <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:1.0.0" />
           <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.3.9" />
-          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.1.0" />
-          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.1.0" />
-          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.0.0" />
-          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.3" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.25" />
