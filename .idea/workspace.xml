@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5fc690a-8b89-4b30-998f-ff86aaa7d7e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/gulj_app_blog_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gulj_app_blog_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/plugins/laypage/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/plugins/laypage/skin/laypage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/target/classes/config/mybatis.properties" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/target/classes/config/mybatis.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/target/surefire-reports/TEST-com.app.admin.biz.test.UserServiceTest.xml" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/target/surefire-reports/TEST-com.app.admin.biz.test.UserServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/BusinessParamBo.java" afterPath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/BusinessParamBo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/PageParamBo.java" afterPath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/PageParamBo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/vo/BlogArticleListVo.java" afterPath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/vo/BlogArticleListVo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/gulj-app-blog-api/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/gulj-app-blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-app-blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/mappers/BlogArticleMapper.xml" afterPath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/mappers/BlogArticleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/pom.xml" afterPath="$PROJECT_DIR$/gulj-app-blog/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-common-util/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/gulj-common-util/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-common-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-common-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-common-util/target/surefire-reports/TEST-com.gulj.common.util.AppTest.xml" afterPath="$PROJECT_DIR$/gulj-common-util/target/surefire-reports/TEST-com.gulj.common.util.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common-bo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/gulj-entity-common-bo/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common-bo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-entity-common-bo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common-bo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-entity-common-bo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common-bo/target/surefire-reports/TEST-com.gulj.entity.common.bo.AppTest.xml" afterPath="$PROJECT_DIR$/gulj-entity-common-bo/target/surefire-reports/TEST-com.gulj.entity.common.bo.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/gulj-entity-common/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-entity-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/gulj-entity-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-entity-common/target/surefire-reports/TEST-com.gulj.entity.common.bo.AppTest.xml" afterPath="$PROJECT_DIR$/gulj-entity-common/target/surefire-reports/TEST-com.gulj.entity.common.bo.AppTest.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/gulj-base-adapter/target/" />
     <ignored path="$PROJECT_DIR$/gulj-base-dependency/target/" />
@@ -75,45 +48,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BlogCategoryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogIndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogArticleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="59" column="9" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="59" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysMenuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/SysMenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="12" column="70" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -539,11 +478,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulj-app-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulj-app-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,52 +573,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,15 +597,12 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/generator" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gulj.app.blog.api.vo" />
@@ -657,9 +611,12 @@
       <recent name="com.gulj.app.blog.api.service" />
       <recent name="com.gulj.app.admin" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/generator" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/plugins/laypage" />
+      <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images" />
+      <recent name="$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources" />
+      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1365,7 +1322,7 @@
       <workItem from="1493808781056" duration="9258000" />
       <workItem from="1493875452029" duration="14966000" />
       <workItem from="1494736865264" duration="16498000" />
-      <workItem from="1494829332295" duration="12299000" />
+      <workItem from="1494829332295" duration="12674000" />
     </task>
     <servers />
   </component>
@@ -1384,7 +1341,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118305000" />
+    <option name="totallyTimeSpent" value="118680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1397,7 +1354,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-292" y="-1080" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1421,7 +1378,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3792079" sideWeight="0.49574015" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3792079" sideWeight="0.49574015" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20979765" sideWeight="0.49483013" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.50516987" order="6" side_tool="true" content_ui="tabs" />
@@ -1452,13 +1409,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/public.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/public-page.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1647,20 +1597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="222" column="12" lean-forward="false" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
-          <folding>
-            <marker date="1494832031000" expanded="true" signature="31:14563" ph="..." />
-            <marker date="1494832031000" expanded="true" signature="428:14554" ph="..." />
-            <marker date="1494832031000" expanded="true" signature="4433:5788" ph="..." />
-            <marker date="1494832031000" expanded="true" signature="5205:5711" ph="..." />
-            <marker date="1494832031000" expanded="true" signature="5564:5686" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/sys/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1839,18 +1775,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/plugins/laypage/laypage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/SysMenuController.java">
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1865,13 +1811,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java">
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/SysMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="70" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
