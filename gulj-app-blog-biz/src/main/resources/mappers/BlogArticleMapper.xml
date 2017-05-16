@@ -25,7 +25,7 @@
 
     <!--分页查询首页的文章列表-->
     <select id="queryListPageIndexInfo" parameterType="com.gulj.app.blog.api.bo.BusinessParamBo" resultType="com.gulj.app.blog.api.vo.BlogArticleListVo">
-        select baseData.stand,bc.id as categoryId,bc.name as categoryName, ba.* from(
+        select baseData.stand,baseData.create_time as createTime,bc.id as categoryId,bc.name as categoryName, ba.* from(
             SELECT
                 id ,
                 sum(hot + love + COMMENT) stand ,

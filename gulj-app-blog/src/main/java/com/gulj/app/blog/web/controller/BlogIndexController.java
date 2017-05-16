@@ -10,9 +10,11 @@ import com.gulj.app.blog.api.vo.BlogArticleListVo;
 import com.gulj.app.blog.api.vo.BlogCategoryVo;
 import com.gulj.app.blog.api.vo.JoinGuPageVo;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
@@ -30,7 +32,8 @@ public class BlogIndexController {
     private BlogArticleService blogArticleService;
 
     @RequestMapping("/index")
-    public ModelAndView index(HttpSession session) {
+    public ModelAndView index(HttpSession session, HttpServletRequest request) {
+        String page = request.getParameter("page");
         ModelAndView mv = new ModelAndView();
         //分类列表
         List<BlogCategoryVo> blogCategoryVoList = (List<BlogCategoryVo>) session.getAttribute("blogCategoryVoList");
@@ -39,7 +42,11 @@ public class BlogIndexController {
             session.setAttribute("blogCategoryVoList", blogCategoryVoList);
         }
         //文章列表
-        PageInfo<BlogArticleListVo> list = blogArticleService.listPageIndex(new BusinessParamBo(), new PageParamBo());
+        PageParamBo pageParamBo = new PageParamBo();
+        if (!StringUtils.isEmpty(page)){
+            pageParamBo.setPageNumber(Integer.valueOf(page));
+        }
+        PageInfo<BlogArticleListVo> list = blogArticleService.listPageIndex(new BusinessParamBo(), pageParamBo);
         JoinGuPageVo joinGuPageVo = null;
         if (null != list) {
             joinGuPageVo = new JoinGuPageVo();
@@ -49,7 +56,7 @@ public class BlogIndexController {
             List<BlogArticleListVo> appUserLst = list.getList();
             joinGuPageVo.setRows(appUserLst);
         }
-        mv.addObject("joinGuPageVo", joinGuPageVo);
+        mv.addObject("pageArticleListVo", joinGuPageVo);
         mv.setViewName("views/index");
         return mv;
     }

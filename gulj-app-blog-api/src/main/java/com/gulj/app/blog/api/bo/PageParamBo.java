@@ -16,6 +16,6 @@ public class PageParamBo implements java.io.Serializable{
     private int offset; // 偏移量 0.16,32
 
     private int pageNumber = 1; //页码
-    private int pageSize = 15; //每页的大小
+    private int pageSize = 5; //每页的大小
 
 }

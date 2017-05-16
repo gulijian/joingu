@@ -10,7 +10,9 @@
     <!-- common css -->
     <#include "/views/include/public.ftl">
     <!-- page css -->
+    <link rel="stylesheet" type="text/css" href="plugins/laypage/skin/laypage.css">
     <link rel="stylesheet" type="text/css" href="css/index/index.css">
+
 
 </head>
 <!-- #00a2ca -->
@@ -99,12 +101,12 @@
 
     <!-- 文章列表 start -->
     <div class="article_list">
-        <#if blogArticleList??>
-            <#list  blogArticleList as blogArticle>
+        <#if pageArticleListVo.rows??>
+            <#list  pageArticleListVo.rows as blogArticle>
                 <artice class="excerpt">
                     <header>
                         <a href="#">
-                            <i class='artice_label'>免费资源</i>
+                            <i class='artice_label'>${blogArticle.categoryName}</i>
                         </a>
                         <h2>
                             <a href="bigdata.html" target="_blank">${blogArticle.title}</a>
@@ -120,11 +122,11 @@
                     </span>
                     <div style="clear:both"></div>
                     <p class="auth-span">
-                        <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (09-19)</span>
+                        <span><i class="fa fa-clock-o"></i>&nbsp;6个月前 (${blogArticle.createTime?string('dd日.MM月')})</span>
                         <span><i class="fa fa-eye"></i>&nbsp; ${blogArticle.hot}℃</span>
                         <span>
                     <i class="fa fa-comment-o"></i>&nbsp;
-                    <a href="#">15评论</a>
+                    <a href="#">${blogArticle.comment}评论</a>
                 </span>
                         <span>
                     <a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp; ${blogArticle.love}喜欢</a>
@@ -136,8 +138,8 @@
         </#if>
 
         <!-- 分页 start -->
-        <div class="g_propagation">
-
+        <div class="g_propagation" id="join_gu_propagation" >
+            <input type="hidden" id="totalPage" value="${pageArticleListVo.totalPage}">
         </div>
         <!-- 分页 end -->
 
@@ -317,8 +319,10 @@
 
 <!-- page js start -->
 <script src="js/banner/banner.js" charset="utf-8"></script>
+<script src="plugins/laypage/laypage.js" charset="utf-8"></script>
 <script src="http://cdn.bootcss.com/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 <script src="js/banner/bootstrap-touch-slider.js"></script>
+<script src="js/index/index.js"></script>
 
 
 

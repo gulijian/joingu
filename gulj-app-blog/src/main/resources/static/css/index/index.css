@@ -125,7 +125,7 @@ header .container-inner {
 }
 
 .mainbody .article_list .excerpt header h2 a:hover{
-  color: : #1abc9c;
+  color: #1abc9c;
   transition: .5s;
 }
 
@@ -173,9 +173,11 @@ header .container-inner {
 }
 
 .mainbody .article_list .g_propagation {
-    height: 50px;
+    height: 40px;
     background-color: #fff;
     margin-bottom: 10px;
+    text-align: center;
+    padding-top: 8px;
 }
 
 
