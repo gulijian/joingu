@@ -25,10 +25,10 @@ import java.util.List;
 @Controller
 public class BlogIndexController {
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0",timeout = 1200000)
     private BlogCategoryService blogCategoryService;
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0",timeout = 1200000)
     private BlogArticleService blogArticleService;
 
     @RequestMapping("/index")
