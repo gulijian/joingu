@@ -8,12 +8,7 @@
     <title>顾大仙博客-关注后端，大数据</title>
 
     <!-- common css  start-->
-    <link rel="stylesheet" href="plugins/layui/css/layui.css">
-    <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/common/header/header.css">
-    <link rel="stylesheet" href="css/common/section/section.css">
-    <link rel="stylesheet" href="css/common/footer/footer.css">
+    <#include "/views/include/public-list-css.ftl">
     <!-- common css end -->
     <!-- page css start -->
     <link rel="stylesheet" href="css/diary.css">
@@ -219,14 +214,9 @@
 <#include "/views/include/footer.ftl">
 <!-- footer end -->
 
-
 <!-- common js start  -->
-<script type="text/javascript" src="plugins/layui/layui.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/common/header.js" charset="utf-8"></script>
+<#include "/views/include/public-js.ftl">
 <!-- common js end  -->
-
 
 
 </body>
