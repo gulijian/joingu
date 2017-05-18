@@ -40,14 +40,6 @@
     </div>
 </header>
 
-<script>
-    $(function () {
-
-
-    })
-</script>
-
-
 
 
 

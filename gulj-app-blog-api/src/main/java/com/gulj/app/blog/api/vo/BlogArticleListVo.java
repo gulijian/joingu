@@ -14,6 +14,8 @@ public class BlogArticleListVo extends BlogArticle {
 
     private Integer categoryId;//分类id
 
+    private String url;//分类url
+
     private String categoryName;//分类名称
 
 }

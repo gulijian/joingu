@@ -9,34 +9,35 @@ import com.gulj.app.blog.api.vo.BlogArticleListVo;
 import com.gulj.app.blog.api.vo.JoinGuPageVo;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
  * @author gulj
- * @create 2017-05-14 下午3:14
+ * @create 2017-05-18 上午11:20
  **/
 @Controller
-public class BlogIndexController {
+public class BlogListController {
 
 
-    @Reference(version = "1.0.0", timeout = 1200000)
+    @Reference(version = "1.0.0",timeout = 1200000)
     private BlogArticleService blogArticleService;
 
-    @RequestMapping("/index")
-    public ModelAndView index(HttpSession session, HttpServletRequest request) {
+    @GetMapping("/{moudle}")
+    public ModelAndView list(HttpServletRequest request,BusinessParamBo businessParamBo) {
         String page = request.getParameter("page");
+        String url = request.getRequestURI();
         ModelAndView mv = new ModelAndView();
         //文章列表
         PageParamBo pageParamBo = new PageParamBo();
         if (!StringUtils.isEmpty(page)) {
             pageParamBo.setPageNumber(Integer.valueOf(page));
         }
-        PageInfo<BlogArticleListVo> list = blogArticleService.listPageIndex(new BusinessParamBo(), pageParamBo);
+        businessParamBo.setUrl(url);
+        PageInfo<BlogArticleListVo> list = blogArticleService.listPageIndex(businessParamBo, pageParamBo);
         JoinGuPageVo joinGuPageVo = null;
         if (null != list) {
             joinGuPageVo = new JoinGuPageVo();
@@ -47,7 +48,7 @@ public class BlogIndexController {
             joinGuPageVo.setRows(appUserLst);
         }
         mv.addObject("pageArticleListVo", joinGuPageVo);
-        mv.setViewName("views/index");
+        mv.setViewName("views/list");
         return mv;
     }
 

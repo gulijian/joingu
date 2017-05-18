@@ -21,7 +21,7 @@ import java.util.List;
 public class BlogArticleController {
 
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0",timeout = 1200000)
     BlogArticleService articleService;
 
 
