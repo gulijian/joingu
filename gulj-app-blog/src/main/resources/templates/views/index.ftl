@@ -111,7 +111,7 @@
                             <i class='artice_label'>${blogArticle.categoryName}</i>
                         </a>
                         <h2>
-                            <a href="bigdata.html" target="_blank">${blogArticle.title}</a>
+                            <a href="article/${blogArticle.id}.html" target="_blank">${blogArticle.title}</a>
                         </h2>
                     </header>
                     <div class="g_focus">

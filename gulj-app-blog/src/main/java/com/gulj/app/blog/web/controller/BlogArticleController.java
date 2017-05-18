@@ -9,6 +9,7 @@ import com.gulj.app.blog.api.service.BlogArticleService;
 import com.gulj.app.blog.api.vo.BlogArticleListVo;
 import com.gulj.app.blog.api.vo.JoinGuPageVo;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -21,7 +22,7 @@ import java.util.List;
 public class BlogArticleController {
 
 
-    @Reference(version = "1.0.0",timeout = 1200000)
+    @Reference(version = "1.0.0", timeout = 1200000)
     BlogArticleService articleService;
 
 
@@ -59,6 +60,22 @@ public class BlogArticleController {
             return joinGuPageVo;
         }
         return null;
+    }
+
+
+    /**
+     * 文章详情
+     *
+     * @param articleId
+     * @return
+     */
+    @GetMapping("/{articleId}.html")
+    @ResponseBody
+    public ModelAndView detail(@PathVariable Integer articleId) {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("views/detail");
+        System.out.println(articleId);
+        return mv;
     }
 
 
