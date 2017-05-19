@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulj.app.blog.biz.mapper.BlogCommentMapper">
+    <resultMap id="BaseResultMap" type="com.gulj.app.blog.api.entity.BlogComment">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="article_id" jdbcType="INTEGER" property="articleId"/>
+        <result column="from_uid" jdbcType="INTEGER" property="fromUid"/>
+        <result column="hit" jdbcType="INTEGER" property="hit"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="content" jdbcType="LONGVARCHAR" property="content"/>
+    </resultMap>
+
+
+    <!--根据文章id查询文章根评论列表-->
+    <select id="queryCommentListByArticleId" resultType="com.gulj.app.blog.api.vo.BlogCommentVo">
+    SELECT
+        bc.*, bu.username fromUserName
+    FROM
+        blog_comment bc
+    LEFT JOIN blog_user bu ON bc.from_uid = bu.id
+    WHERE
+        article_id = #{articleId}
+  </select>
+
+
+</mapper>

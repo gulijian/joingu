@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gulj.app.blog.biz.mapper.BlogReplyMapper">
+    <resultMap id="BaseResultMap" type="com.gulj.app.blog.api.entity.BlogReply">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="comment_id" jdbcType="INTEGER" property="commentId"/>
+        <result column="reply_id" jdbcType="INTEGER" property="replyId"/>
+        <result column="reply_type" jdbcType="TINYINT" property="replyType"/>
+        <result column="from_uid" jdbcType="INTEGER" property="fromUid"/>
+        <result column="to_uid" jdbcType="INTEGER" property="toUid"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="content" jdbcType="LONGVARCHAR" property="content"/>
+    </resultMap>
+
+
+    <!--查询评论下的素有回复-->
+    <select id="queryReplyListByCommentId" resultType="com.gulj.app.blog.api.vo.BlogReplyVo">
+    select
+        br.*,
+        buFrom.username fromUserName,
+        buTo.username toUserName
+    from blog_reply br
+    left join blog_user  buFrom on br.from_uid = buFrom.id
+    left join blog_user  buTo on  br.to_uid = buTo.id
+    where comment_id = #{commentId}
+  </select>
+
+
+</mapper>
