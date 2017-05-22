@@ -13,11 +13,20 @@
         <result column="content" jdbcType="LONGVARCHAR" property="content"/>
     </resultMap>
 
+    <sql id="commentColumnsSql">
+        bc.id id,
+        bc.article_id articleId,
+        bc.from_uid fromUid,
+        bc.hit hit,
+        bc.create_time createTime,
+        bc.content content
+    </sql>
+
 
     <!--根据文章id查询文章根评论列表-->
     <select id="queryCommentListByArticleId" resultType="com.gulj.app.blog.api.vo.BlogCommentVo">
     SELECT
-        bc.*, bu.username fromUserName
+        bu.username fromUserName,<include refid="commentColumnsSql"/>
     FROM
         blog_comment bc
     LEFT JOIN blog_user bu ON bc.from_uid = bu.id

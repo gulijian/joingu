@@ -15,13 +15,24 @@
         <result column="content" jdbcType="LONGVARCHAR" property="content"/>
     </resultMap>
 
+    <sql id="replyCoulmnsSql">
+        br.id id,
+        br.comment_id commentId,
+        br.reply_id replyId,
+        br.reply_type replyType,
+        br.from_uid fromUid,
+        br.to_uid toUid,
+        br.create_time createTime,
+        br.content content
+    </sql>
+
 
     <!--查询评论下的素有回复-->
     <select id="queryReplyListByCommentId" resultType="com.gulj.app.blog.api.vo.BlogReplyVo">
     select
-        br.*,
         buFrom.username fromUserName,
-        buTo.username toUserName
+        buTo.username toUserName,
+        <include refid="replyCoulmnsSql"/>
     from blog_reply br
     left join blog_user  buFrom on br.from_uid = buFrom.id
     left join blog_user  buTo on  br.to_uid = buTo.id
