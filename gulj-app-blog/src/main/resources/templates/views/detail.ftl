@@ -111,7 +111,7 @@
         </nav>
         <div class="comt-title">
             <div class="comt-avatar">
-                <img src="/images/commet-avatar.jpg" alt="" width="30px" height="30px">
+                <img src="images/commet-avatar.jpg" alt="" width="30px" height="30px">
             </div>
             <div class="comt-author">
                 <span>顾大仙</span>
@@ -147,7 +147,7 @@
                     <div>
                         <div class="author">
                             <a href="#" class="avatar">
-                                <img src="/images/commet-avatar.jpg" alt="" >
+                                <img src="images/commet-avatar.jpg" alt="" >
                             </a>
                             <div class="info">
                                 <a href="#">弗兰克</a>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="sub-comment more-comment">
-                            <a href="#" class="add-commet-btn">
+                            <a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">
                                 <i class="fa fa-heart-o"></i>
                                 <span>添加评论</span>
                             </a>
@@ -240,7 +240,7 @@
                             </span>
                             <a href="#">展开查看</a>
                         </div>
-                        <div>
+                        <div class="sub-comment-box">
                             <form action="#" class="new-commet">
                                 <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
                                 <div class="write-function-block">
@@ -256,7 +256,7 @@
                     <div>
                         <div class="author">
                             <a href="#" class="avatar">
-                                <img src="/images/commet-avatar.jpg" alt="" >
+                                <img src="images/commet-avatar.jpg" alt="" >
                             </a>
                             <div class="info">
                                 <a href="#">弗兰克</a>
@@ -274,15 +274,15 @@
                                     <i class="fa fa-heart-o"></i>
                                     <span>6</span>人赞
                                 </a>
-                                <a href="#">
+                                <a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">
                                     <i class="fa fa-heart-o"></i>
                                     <span>回复</span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="sub-comment-list hidden">
-                        <div>
+                    <div class="sub-comment-list">
+                        <div class="sub-comment-box">
                             <form action="#" class="new-commet">
                                 <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
                                 <div class="write-function-block">
@@ -297,7 +297,7 @@
                     <div>
                         <div class="author">
                             <a href="#" class="avatar">
-                                <img src="/images/commet-avatar.jpg" alt="" >
+                                <img src="images/commet-avatar.jpg" alt="" >
                             </a>
                             <div class="info">
                                 <a href="#">弗兰克</a>
@@ -315,9 +315,9 @@
                                     <i class="fa fa-heart-o"></i>
                                     <span>6</span>人赞
                                 </a>
-                                <a href="#">
+                                <a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">
                                     <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
+                                    <span >回复</span>
                                 </a>
                             </div>
                         </div>
@@ -333,9 +333,9 @@
                             </p>
                             <div class="sub-tool-group">
                                 <span>2017.04.17 11:22</span>
-                                <a href="#" class="response">
+                                <a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">
                                     <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
+                                    <span >回复</span>
                                 </a>
                                 <a href="#" class="report">
                                     <span>举报</span>
@@ -352,9 +352,9 @@
                             </p>
                             <div class="sub-tool-group">
                                 <span>2017.04.17 11:22</span>
-                                <a href="#" class="response">
+                                <a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">
                                     <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
+                                    <span >回复</span>
                                 </a>
                                 <a href="#" class="report">
                                     <span>举报</span>
@@ -362,10 +362,19 @@
                             </div>
                         </div>
                         <div class="sub-comment more-comment">
-                            <a href="#" class="add-commet-btn">
+                            <a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">
                                 <i class="fa fa-heart-o"></i>
                                 <span>添加评论</span>
                             </a>
+                        </div>
+                        <div class="sub-comment-box" >
+                            <form action="#" class="new-commet">
+                                <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
+                                <div class="write-function-block">
+                                    <a href="javascript:void(0)" class="btn btn-info btn-send" onclick="btnCommentCommit(this)">发送</a>
+                                    <a href="javascript:void(0)" class="cancel" onclick="commentBoxCancel(this)">取消</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -402,7 +411,7 @@
                     <li>
                         <a href="#">
                             <span class="note-thume">
-                               <img src="/images/2.jpg" alt="" >
+                               <img src="images/2.jpg" alt="" >
                             </span>
                             <span class="note-title">限量阿里云推荐码一枚首次购推荐码一枚首次购推荐码一枚枚首次购推荐码一枚首次购推荐码荐码一枚首次购推荐码荐码一枚首次购推荐码一</span>
                             <span class="note-time">2016-07-01</span>
@@ -412,7 +421,7 @@
                     <li>
                         <a href="#">
                             <span class="note-thume">
-                              <img src="/images/3.jpg" alt="" >
+                              <img src="images/3.jpg" alt="" >
                             </span>
                             <span class="note-title">限量阿里云推荐码一枚首次购推荐码一枚首次购推荐码一枚</span>
                             <span class="note-time">2016-07-01</span>
@@ -422,7 +431,7 @@
                     <li>
                         <a href="#">
                             <span class="note-thume">
-                               <img src="/images/2.jpg" alt="" >
+                               <img src="images/2.jpg" alt="" >
                              </span>
                             <span class="note-title">限量阿里云推荐码一枚首次购推荐码一枚首次购推荐码一fjdasfjadsj</span>
                             <span class="note-time">2016-07-01</span>
@@ -441,7 +450,7 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="/images/commet-avatar.jpg" alt="评论图片" width="20%" height="20%">
+                            <img src="images/commet-avatar.jpg" alt="评论图片" width="20%" height="20%">
                             <div class="commet">
                                 <div class="commet-author">
                                     <span><lable>顾大仙</lable><span>&nbsp;&nbsp;</span>3周前(03-24)说：</span>
@@ -458,7 +467,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="/images/commet-avatar.jpg" alt="评论图片" width="20%" height="20%">
+                            <img src="images/commet-avatar.jpg" alt="评论图片" width="20%" height="20%">
                             <div class="commet">
                                 <div class="commet-author">
                                     <span><lable>顾大仙</lable><span>&nbsp;&nbsp;</span>3周前(03-24)说：</span>
@@ -475,7 +484,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="/images/commet-avatar.jpg" alt="评论图片" width="20%" height="20%">
+                            <img src="images/commet-avatar.jpg" alt="评论图片" width="20%" height="20%">
                             <div class="commet">
                                 <div class="commet-author">
                                     <span><lable>顾大仙</lable><span>&nbsp;&nbsp;</span>3周前(03-24)说：</span>
@@ -522,6 +531,44 @@
 <!-- common js start  -->
 <#include "/views/include/public-js.ftl">
 <!-- common js end  -->
+
+<style media="screen">
+    .sub-comment-box{
+        display: none;
+    }
+</style>
+
+<script type="text/javascript">
+    //评论框显示和隐藏
+    function btnAddCommentBox(obj) {
+        $(obj).parent().next().toggle().addClass("animated fadeInDown");
+        $(obj).parent().next().find("textarea").focus();
+        $(obj).parent().next().find("textarea").val("");
+    }
+    //回复添加评论框显示和隐藏
+    function btnAddReplyCommentBox(obj,flag){
+        var replyAuthorName = $(obj).parent().prev().find("a:first").html();
+        //判断评论框是否显示
+        var isShow = $(obj).parents(".commet").find(".sub-comment-box").css("display");
+        $(obj).parents(".commet").find(".sub-comment-box").toggle().addClass("animated fadeInDown");
+        $(obj).parents(".commet").find(".sub-comment-box").find("textarea").focus();
+        if (flag == 2) {
+            $(obj).parents(".commet").find(".sub-comment-box").find("textarea").val("@"+replyAuthorName+":");
+        }else{
+            $(obj).parents(".commet").find(".sub-comment-box").find("textarea").val("");
+        }
+    }
+    //评论框取消
+    function commentBoxCancel(obj){
+        $(obj).parents(".sub-comment-box").hide();
+    }
+
+    //评论提交
+    function btnCommentCommit(obj){
+        alert("");
+    }
+</script>
+
 
 
 

@@ -14,6 +14,8 @@
     <!-- page css -->
     <link rel="stylesheet" type="text/css" href="plugins/laypage/skin/laypage.css">
     <link rel="stylesheet" type="text/css" href="css/index/index.css">
+    <link rel="stylesheet" type="text/css" href="css/common/header/search.css">
+
 
 
 </head>

@@ -1,0 +1,32 @@
+.g_nav{
+    position: relative;
+}
+.searchBox{
+    position: absolute;
+    top: 20px;
+    right: 28px;
+}
+.searchBox input{
+    border: 0px;
+    border-bottom: 1px solid rgba(120,125,130,.8);
+    height: 30px;
+    width: 270px;
+    background: #2a2b2b;
+}
+.searchBox input:focus{
+    border-bottom: 1px solid white;
+}
+.searchBox button{
+    color: black;
+    width: 30px;
+    height: 30px;
+    background:  #2a2b2b;
+    border: 0px;
+
+}
+.searchBox button i:hover{
+    color: white;
+}
+.searchBox button i{
+    color: #757a7e;
+}

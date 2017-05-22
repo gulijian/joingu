@@ -37,6 +37,10 @@
             <#--<li class="layui-nav-item" data-tab="diary"><a href="diary.html">随笔</a></li>-->
             <#--<li class="layui-nav-item"><a href="">留言</a></li>-->
         </ul>
+        <div class="searchBox">
+            <input type="text" name="" value="">
+            <button type="button" name="button"><i class="fa fa-search fa-lg" ></i></button>
+        </div>
     </div>
 </header>
 
