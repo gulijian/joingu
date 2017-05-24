@@ -4,7 +4,7 @@ package com.gulj.assembly.email;
  * @author gulj
  * @create 2017-05-24 下午5:03
  **/
-public class AssemblyEmailBo {
+public class EmailAssemblyBo {
 
 
     private String from;//发送者
@@ -13,10 +13,10 @@ public class AssemblyEmailBo {
     private String text;//内容
 
 
-    public AssemblyEmailBo() {
+    public EmailAssemblyBo() {
     }
 
-    public AssemblyEmailBo(String from, String to, String subject, String text) {
+    public EmailAssemblyBo(String from, String to, String subject, String text) {
         this.from = from;
         this.to = to;
         this.subject = subject;

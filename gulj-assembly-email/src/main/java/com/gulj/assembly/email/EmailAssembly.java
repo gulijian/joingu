@@ -26,21 +26,21 @@ public interface EmailAssembly {
     /**
      * 发送嵌入静态资源邮件
      *
-     * @param assemblyEmailBo
+     * @param emailAssemblyBo
      * @param file
      * @throws Exception
      */
-    void sendInlineMail(AssemblyEmailBo assemblyEmailBo, File file) throws Exception;
+    void sendInlineMail(EmailAssemblyBo emailAssemblyBo, File file) throws Exception;
 
 
     /**
      * 发送带有附件的邮件
      *
-     * @param assemblyEmailBo
+     * @param emailAssemblyBo
      * @param files
      * @throws MailException
      */
-    void sendAttachmentsMail(AssemblyEmailBo assemblyEmailBo, File[] files) throws Exception;
+    void sendAttachmentsMail(EmailAssemblyBo emailAssemblyBo, File[] files) throws Exception;
 
 
 }

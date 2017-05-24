@@ -36,19 +36,19 @@ public class EmailAssemblyImpl implements EmailAssembly {
     /**
      * 获取MimeMessageHelper对象
      *
-     * @param assemblyEmailBo email 实体
+     * @param emailAssemblyBo email 实体
      * @param mimeMessage     消息对象
      * @param mutipart        是否支持多附件
      * @param html            是否是html文件
      * @return
      * @throws Exception
      */
-    private MimeMessageHelper getMimeMessageHelper(AssemblyEmailBo assemblyEmailBo, MimeMessage mimeMessage, boolean mutipart, boolean html) throws Exception {
+    private MimeMessageHelper getMimeMessageHelper(EmailAssemblyBo emailAssemblyBo, MimeMessage mimeMessage, boolean mutipart, boolean html) throws Exception {
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, mutipart);
-        helper.setFrom(assemblyEmailBo.getFrom());
-        helper.setTo(assemblyEmailBo.getTo());
-        helper.setSubject(assemblyEmailBo.getSubject());
-        helper.setText(assemblyEmailBo.getText(), html);
+        helper.setFrom(emailAssemblyBo.getFrom());
+        helper.setTo(emailAssemblyBo.getTo());
+        helper.setSubject(emailAssemblyBo.getSubject());
+        helper.setText(emailAssemblyBo.getText(), html);
         return helper;
     }
 
@@ -60,9 +60,9 @@ public class EmailAssemblyImpl implements EmailAssembly {
 
 
     @Override
-    public void sendInlineMail(AssemblyEmailBo assemblyEmailBo, File file) throws Exception {
+    public void sendInlineMail(EmailAssemblyBo emailAssemblyBo, File file) throws Exception {
         MimeMessage mimeMessage = getMimeMessage();
-        MimeMessageHelper helper = getMimeMessageHelper(assemblyEmailBo, mimeMessage, true, true);
+        MimeMessageHelper helper = getMimeMessageHelper(emailAssemblyBo, mimeMessage, true, true);
         FileSystemResource fileSystemResource = new FileSystemResource(file);
         String[] fileName = fileSystemResource.getFilename().split("\\."); //"<html><body><img src=\"cid:weixin\" ></body></html>"
         helper.addInline(fileName[0], fileSystemResource);//注意addInline函数中资源名称weixin需要与正文中cid:weixin对应起来,建议cid名称和图片的名称相同
@@ -70,9 +70,9 @@ public class EmailAssemblyImpl implements EmailAssembly {
     }
 
     @Override
-    public void sendAttachmentsMail(AssemblyEmailBo assemblyEmailBo, File[] files) throws Exception {
+    public void sendAttachmentsMail(EmailAssemblyBo emailAssemblyBo, File[] files) throws Exception {
         MimeMessage mimeMessage = getMimeMessage();
-        MimeMessageHelper helper = getMimeMessageHelper(assemblyEmailBo, mimeMessage, true, false);
+        MimeMessageHelper helper = getMimeMessageHelper(emailAssemblyBo, mimeMessage, true, false);
         List<FileSystemResource> fileSystemResourceList = new ArrayList<>();
         //附件
         for (int i = 0; i < files.length; i++) {

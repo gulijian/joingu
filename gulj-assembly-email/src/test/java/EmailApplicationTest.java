@@ -1,5 +1,5 @@
 import com.gulj.assembly.EmailApplication;
-import com.gulj.assembly.email.AssemblyEmailBo;
+import com.gulj.assembly.email.EmailAssemblyBo;
 import com.gulj.assembly.email.EmailAssembly;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -50,12 +50,12 @@ public class EmailApplicationTest {
      */
     @Test
     public void sendInlineMail() throws Exception {
-        AssemblyEmailBo assemblyEmailBo = new AssemblyEmailBo();
-        assemblyEmailBo.setFrom("join@newchama.com");
-        assemblyEmailBo.setTo("1175327069@qq.com");
-        assemblyEmailBo.setSubject("主题：嵌入静态资源");
-        assemblyEmailBo.setText("<html><body><img src=\"cid:user\" ></body></html>");
-        emailAssembly.sendInlineMail(assemblyEmailBo, new File("/Users/newchama/Documents/E/workspace-ide/joingu/gulj-assembly-email/src/main/resources/static/images/user.jpg"));
+        EmailAssemblyBo emailAssemblyBo = new EmailAssemblyBo();
+        emailAssemblyBo.setFrom("join@newchama.com");
+        emailAssemblyBo.setTo("1175327069@qq.com");
+        emailAssemblyBo.setSubject("主题：嵌入静态资源");
+        emailAssemblyBo.setText("<html><body><img src=\"cid:user\" ></body></html>");
+        emailAssembly.sendInlineMail(emailAssemblyBo, new File("/Users/newchama/Documents/E/workspace-ide/joingu/gulj-assembly-email/src/main/resources/static/images/user.jpg"));
     }
 
 
@@ -66,15 +66,15 @@ public class EmailApplicationTest {
      */
     @Test
     public void sendAttachmentsMail() throws Exception {
-        AssemblyEmailBo assemblyEmailBo = new AssemblyEmailBo();
-        assemblyEmailBo.setFrom("join@newchama.com");
-        assemblyEmailBo.setTo("1175327069@qq.com");
-        assemblyEmailBo.setSubject("主题：嵌入静态资源");
-        assemblyEmailBo.setText("附件内容测试2");
+        EmailAssemblyBo emailAssemblyBo = new EmailAssemblyBo();
+        emailAssemblyBo.setFrom("join@newchama.com");
+        emailAssemblyBo.setTo("1175327069@qq.com");
+        emailAssemblyBo.setSubject("主题：嵌入静态资源");
+        emailAssemblyBo.setText("附件内容测试2");
         File file = new File("/Users/newchama/Documents/E/workspace-ide/joingu/gulj-assembly-email/src/main/resources/static/images/user.jpg");
         File file1 = new File("/Users/newchama/Documents/E/workspace-ide/joingu/gulj-assembly-email/src/main/resources/static/images/locked.png");
         File[] files = new File[]{file, file1};
-        emailAssembly.sendAttachmentsMail(assemblyEmailBo, files);
+        emailAssembly.sendAttachmentsMail(emailAssemblyBo, files);
     }
 
 }
