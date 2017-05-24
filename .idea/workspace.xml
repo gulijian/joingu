@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5fc690a-8b89-4b30-998f-ff86aaa7d7e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/1.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images/article/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images/1.jpg" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images/1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/BusinessParamBo.java" afterPath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/BusinessParamBo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCommentService.java" afterPath="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCommentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCommentServiceImpl.java" afterPath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCommentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCommentController.java" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCommentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java" afterPath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/gulj-base-adapter/target/" />
     <ignored path="$PROJECT_DIR$/gulj-base-dependency/target/" />
@@ -55,51 +49,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3255">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/list.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="43" column="26" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="43" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="263" column="49" lean-forward="false" selection-start-line="263" selection-start-column="49" selection-end-line="263" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogPageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogPageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogCategoryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="52" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="330">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -176,7 +130,6 @@
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/startup.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/startup/InitDataStartupRunner.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCategoryService.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/ArticleService.java" />
@@ -210,7 +163,6 @@
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/include/header.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/css/common/header/search.css" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/include/public-list-css.ftl" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/mappers/BlogCommentMapper.xml" />
         <option value="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/vo/BlogCommentVo.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/mappers/BlogReplyMapper.xml" />
@@ -222,6 +174,8 @@
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl" />
+        <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl" />
       </list>
     </option>
   </component>
@@ -340,306 +294,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog-biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog-biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog-biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog-biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mappers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog-biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joingu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-app-blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -663,11 +317,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images/article" />
+      <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images" />
       <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views" />
       <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/plugins/laypage" />
       <recent name="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/static/images" />
-      <recent name="$PROJECT_DIR$/gulj-app-admin-biz/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gulj.app.blog.api.vo" />
@@ -693,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GuljAppBlogApplication">
+  <component name="RunManager" selected="Spring Boot.GuljAppAdminApplication">
     <configuration default="false" name="UserServiceTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1385,7 +1039,7 @@
       <workItem from="1493875452029" duration="14966000" />
       <workItem from="1494736865264" duration="16498000" />
       <workItem from="1494829332295" duration="21082000" />
-      <workItem from="1495072810291" duration="41751000" />
+      <workItem from="1495072810291" duration="47410000" />
     </task>
     <servers />
   </component>
@@ -1404,7 +1058,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168839000" />
+    <option name="totallyTimeSpent" value="174498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1441,7 +1095,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3059406" sideWeight="0.49574015" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3891089" sideWeight="0.49574015" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21192758" sideWeight="0.49483013" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.50516987" order="6" side_tool="true" content_ui="tabs" />
@@ -1471,7 +1125,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1480,106 +1134,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/css/index/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="197" column="1" lean-forward="true" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/BlogArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1405#1406#0" expanded="false" />
-            <element signature="e#1430#1431#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1642#1643#0" expanded="false" />
-            <element signature="e#1674#1675#0" expanded="false" />
-            <element signature="e#1797#1798#0" expanded="false" />
-            <element signature="e#1839#1840#0" expanded="false" />
-            <element signature="e#1952#1953#0" expanded="false" />
-            <element signature="e#1985#1986#0" expanded="false" />
-            <element signature="e#2109#2110#0" expanded="false" />
-            <element signature="e#2153#2154#0" expanded="false" />
-            <element signature="e#2246#2247#0" expanded="false" />
-            <element signature="e#2274#2275#0" expanded="false" />
-            <element signature="e#2374#2375#0" expanded="false" />
-            <element signature="e#2438#2439#0" expanded="false" />
-            <element signature="e#2533#2534#0" expanded="false" />
-            <element signature="e#2562#2563#0" expanded="false" />
-            <element signature="e#2665#2666#0" expanded="false" />
-            <element signature="e#2732#2733#0" expanded="false" />
-            <element signature="e#2825#2826#0" expanded="false" />
-            <element signature="e#2853#2854#0" expanded="false" />
-            <element signature="e#2953#2954#0" expanded="false" />
-            <element signature="e#3017#3018#0" expanded="false" />
-            <element signature="e#3108#3109#0" expanded="false" />
-            <element signature="e#3135#3136#0" expanded="false" />
-            <element signature="e#3232#3233#0" expanded="false" />
-            <element signature="e#3264#3265#0" expanded="false" />
-            <element signature="e#3361#3362#0" expanded="false" />
-            <element signature="e#3387#3388#0" expanded="false" />
-            <element signature="e#3489#3490#0" expanded="false" />
-            <element signature="e#3519#3520#0" expanded="false" />
-            <element signature="e#3618#3619#0" expanded="false" />
-            <element signature="e#3648#3649#0" expanded="false" />
-            <element signature="e#3756#3757#0" expanded="false" />
-            <element signature="e#3794#3795#0" expanded="false" />
-            <element signature="e#3920#3921#0" expanded="false" />
-            <element signature="e#3953#3954#0" expanded="false" />
-            <element signature="e#4090#4091#0" expanded="false" />
-            <element signature="e#4134#4135#0" expanded="false" />
-            <element signature="e#4259#4260#0" expanded="false" />
-            <element signature="e#4288#4289#0" expanded="false" />
-            <element signature="e#4420#4421#0" expanded="false" />
-            <element signature="e#4456#4457#0" expanded="false" />
-            <element signature="e#4579#4580#0" expanded="false" />
-            <element signature="e#4610#4611#0" expanded="false" />
-            <element signature="e#4742#4743#0" expanded="false" />
-            <element signature="e#4782#4783#0" expanded="false" />
-            <element signature="e#4888#4889#0" expanded="false" />
-            <element signature="e#4921#4922#0" expanded="false" />
-            <element signature="e#5038#5039#0" expanded="false" />
-            <element signature="e#5082#5083#0" expanded="false" />
-            <element signature="e#5188#5189#0" expanded="false" />
-            <element signature="e#5221#5222#0" expanded="false" />
-            <element signature="e#5338#5339#0" expanded="false" />
-            <element signature="e#5382#5383#0" expanded="false" />
-            <element signature="e#5483#5484#0" expanded="false" />
-            <element signature="e#5513#5514#0" expanded="false" />
-            <element signature="e#5623#5624#0" expanded="false" />
-            <element signature="e#5693#5694#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/vo/BlogArticleListVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/mappers/BlogCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1610,16 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AppLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-161">
@@ -1643,16 +1191,6 @@
         <state relative-caret-position="300">
           <caret line="1" column="3753" lean-forward="false" selection-start-line="1" selection-start-column="3753" selection-end-line="1" selection-end-column="3753" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AuthBaseAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1724,34 +1262,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1874,14 +1388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/bo/BusinessParamBo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1906,22 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3255">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/list.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="43" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1934,14 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1972,10 +1454,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/mappers/BlogCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AuthBaseAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/config/BlogConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="43" column="26" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/BlogCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="51" column="72" lean-forward="true" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="263" column="49" lean-forward="false" selection-start-line="263" selection-start-column="49" selection-end-line="263" selection-end-column="49" />
+        <state relative-caret-position="377">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>

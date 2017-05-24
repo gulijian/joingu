@@ -28,6 +28,7 @@ public class BlogCategoryServiceImpl implements BlogCategoryService {
                 .andEqualTo("parentId", 0)
                 .andEqualTo("isDelete", 0)
                 .andEqualTo("isShow", 1);
+        example.setOrderByClause("sort asc");
         return mapper.selectByExample(example);
     }
 
@@ -38,6 +39,7 @@ public class BlogCategoryServiceImpl implements BlogCategoryService {
                 .andEqualTo("parentId", parentCategoryId)
                 .andEqualTo("isDelete", 0)
                 .andEqualTo("isShow", 1);
+        example.setOrderByClause("sort asc");
         return mapper.selectByExample(example);
     }
 
