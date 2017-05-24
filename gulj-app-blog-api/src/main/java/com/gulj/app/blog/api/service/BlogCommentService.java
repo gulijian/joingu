@@ -1,8 +1,9 @@
 package com.gulj.app.blog.api.service;
 
+import com.github.pagehelper.PageInfo;
+import com.gulj.app.blog.api.bo.BusinessParamBo;
+import com.gulj.app.blog.api.bo.PageParamBo;
 import com.gulj.app.blog.api.vo.BlogCommentVo;
-
-import java.util.List;
 
 /**
  * @author gulj
@@ -14,9 +15,10 @@ public interface BlogCommentService {
     /**
      * 根据文章查询文章的所有评论以及回复
      *
-     * @param articleId
+     * @param businessParamBo
+     * @param pageParamBo
      * @return
      */
-    List<BlogCommentVo> queryCommentListByArticleId(Integer articleId);
+    PageInfo<BlogCommentVo> queryCommentListByArticleIdPages(BusinessParamBo businessParamBo, PageParamBo pageParamBo);
 
 }

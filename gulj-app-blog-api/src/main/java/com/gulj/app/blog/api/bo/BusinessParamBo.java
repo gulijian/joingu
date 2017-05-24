@@ -14,4 +14,6 @@ public class BusinessParamBo implements java.io.Serializable {
     private Integer stand = 100;//首页文章展示的标准分数（love + hit + comment）总数
 
     private String url;//分类url
+
+    private Integer articleId;//文章id
 }

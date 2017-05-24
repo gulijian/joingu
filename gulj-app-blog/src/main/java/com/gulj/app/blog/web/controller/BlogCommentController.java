@@ -1,12 +1,15 @@
 package com.gulj.app.blog.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.github.pagehelper.PageInfo;
+import com.gulj.app.blog.api.bo.BusinessParamBo;
+import com.gulj.app.blog.api.bo.PageParamBo;
 import com.gulj.app.blog.api.service.BlogCommentService;
 import com.gulj.app.blog.api.vo.BlogCommentVo;
+import com.gulj.app.blog.api.vo.JoinGuPageVo;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
@@ -27,13 +30,24 @@ public class BlogCommentController {
     /**
      * 根据文章查询文章的所有评论以及回复
      *
-     * @param articleId
+     * @param businessParamBo
+     * @param pageParamBo
      * @return
      */
-    @GetMapping("/queryCommentListByArticleId")
+    @PostMapping("/queryCommentListByArticleIdPages")
     @ResponseBody
-    public List<BlogCommentVo> queryCommentListByArticleId(@RequestParam Integer articleId) {
-        return blogCommentService.queryCommentListByArticleId(articleId);
+    public JoinGuPageVo queryCommentListByArticleIdPages(BusinessParamBo businessParamBo, PageParamBo pageParamBo) {
+        PageInfo<BlogCommentVo> list = blogCommentService.queryCommentListByArticleIdPages(businessParamBo, pageParamBo);
+        if (null != list) {
+            JoinGuPageVo joinGuPageVo = new JoinGuPageVo();
+            joinGuPageVo.setPage(list.getPageNum());
+            joinGuPageVo.setTotal(list.getTotal());
+            joinGuPageVo.setTotalPage(list.getPages());
+            List<BlogCommentVo> appUserLst = list.getList();
+            joinGuPageVo.setRows(appUserLst);
+            return joinGuPageVo;
+        }
+        return null;
     }
 
 

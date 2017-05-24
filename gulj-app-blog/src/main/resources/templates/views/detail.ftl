@@ -143,241 +143,353 @@
                 <span>个小伙伴在吐槽</span>
             </div>
             <div class="comment-list">
-                <div class="commet">
-                    <div>
-                        <div class="author">
-                            <a href="#" class="avatar">
-                                <img src="images/commet-avatar.jpg" alt="" >
-                            </a>
-                            <div class="info">
-                                <a href="#">弗兰克</a>
-                                <span class="author-tag">作者</span>
-                                <div class="meta">
-                                    <span>2楼</span>
-                                    <time>2017.04.17 09:38</time>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="commet-wrap">
-                            <p>很实在，现在很多人有些扭捏，不好意思说出自己423143214扭捏，不好意思说出自己4231432141243112431扭捏，不好意思说出自己42314321412431扭捏，不好意思说出自己423143214124312431243214的真实想法</p>
-                            <div class="tool-group">
-                                <a href="#">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>6</span>人赞
-                                </a>
-                                <a href="#">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sub-comment-list">
-                        <div class="sub-commet">
-                            <p>
-                                <a href="#">弗兰克</a>：
-                                <span>
-                                  <a href="#">@Jitter</a>
-                                  <span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>
-                                </span>
-                            </p>
-                            <div class="sub-tool-group">
-                                <span>2017.04.17 11:22</span>
-                                <a href="#" class="response">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
-                                </a>
-                                <a href="#" class="report">
-                                    <span>举报</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="sub-commet">
-                            <p>
-                                <a href="#">弗兰克</a>：
-                                <span>
-                                  <a href="#">@Jitter</a>
-                                  <span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>
-                                </span>
-                            </p>
-                            <div class="sub-tool-group">
-                                <span>2017.04.17 11:22</span>
-                                <a href="#" class="response">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
-                                </a>
-                                <a href="#" class="report">
-                                    <span>举报</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="sub-commet">
-                            <p>
-                                <a href="#">弗兰克</a>：
-                                <span>
-                                  <a href="#">@Jitter</a>
-                                  <span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>
-                                </span>
-                            </p>
-                            <div class="sub-tool-group">
-                                <span>2017.04.17 11:22</span>
-                                <a href="#" class="response">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
-                                </a>
-                                <a href="#" class="report">
-                                    <span>举报</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="sub-comment more-comment">
-                            <a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">
-                                <i class="fa fa-heart-o"></i>
-                                <span>添加评论</span>
-                            </a>
-                            <span class="line-wrap">
-                              还有<span>9</span>条评论
-                            </span>
-                            <a href="#">展开查看</a>
-                        </div>
-                        <div class="sub-comment-box">
-                            <form action="#" class="new-commet">
-                                <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
-                                <div class="write-function-block">
-                                    <a href="#" class="btn btn-info btn-send">发送</a>
-                                    <a href="#" class="cancel">取消</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+               <#if commetReplyPageVo.rows??>
+                   <#list commetReplyPageVo.rows as comment>
+                       <div class="commet">
+                           <div>
+                               <div class="author">
+                                   <a href="#" class="avatar">
+                                       <img src="images/commet-avatar.jpg" alt="" >
+                                   </a>
+                                   <div class="info">
+                                       <a href="#">${comment.fromUserName!""}</a>
+                                       <span class="author-tag">作者</span>
+                                       <div class="meta">
+                                           <span>2楼</span>
+                                           <time>${comment.createTime?string('dd.MM.yyyy HH:mm:ss')}</time>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="commet-wrap">
+                                   <p>${comment.content}</p>
+                                   <div class="tool-group">
+                                       <a href="#">
+                                           <i class="fa fa-heart-o"></i>
+                                           <span>${comment.hit}</span>人赞
+                                       </a>
+                                       <a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">
+                                           <i class="fa fa-heart-o"></i>
+                                           <span>回复</span>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="sub-comment-list">
+                               <#if (comment.blogReplyVoList?size > 0)>
+                                   <#list comment.blogReplyVoList as reply>
+                                       <#if reply_index < 3>
+                                           <div class="sub-commet">
+                                               <p>
+                                                   <a href="#">${reply.fromUserName}</a>：
+                                                   <span>
+                                               <a href="#">@${reply.toUserName}</a>
+                                               <span>${reply.content}</span>
+                                           </span>
+                                               </p>
+                                               <div class="sub-tool-group">
+                                                   <span>${reply.createTime?string('dd.MM.yyyy HH:mm:ss')}</span>
+                                                   <a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">
+                                                       <i class="fa fa-heart-o"></i>
+                                                       <span>回复</span>
+                                                   </a>
+                                                   <a href="#" class="report">
+                                                       <span>举报</span>
+                                                   </a>
+                                               </div>
+                                           </div>
 
-                <div class="commet">
-                    <div>
-                        <div class="author">
-                            <a href="#" class="avatar">
-                                <img src="images/commet-avatar.jpg" alt="" >
-                            </a>
-                            <div class="info">
-                                <a href="#">弗兰克</a>
-                                <span class="author-tag">作者</span>
-                                <div class="meta">
-                                    <span>2楼</span>
-                                    <time>2017.04.17 09:38</time>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="commet-wrap">
-                            <p>很实在，现在很多人有些扭捏，不好意思说出自己423143214扭捏，不好意思说出自己4231432141243112431扭捏，不好意思说出自己42314321412431扭捏，不好意思说出自己423143214124312431243214的真实想法</p>
-                            <div class="tool-group">
-                                <a href="#">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>6</span>人赞
-                                </a>
-                                <a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>回复</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sub-comment-list">
-                        <div class="sub-comment-box">
-                            <form action="#" class="new-commet">
-                                <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
-                                <div class="write-function-block">
-                                    <a href="#" class="btn btn-info btn-send">发送</a>
-                                    <a href="#" class="cancel">取消</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="commet">
-                    <div>
-                        <div class="author">
-                            <a href="#" class="avatar">
-                                <img src="images/commet-avatar.jpg" alt="" >
-                            </a>
-                            <div class="info">
-                                <a href="#">弗兰克</a>
-                                <span class="author-tag">作者</span>
-                                <div class="meta">
-                                    <span>2楼</span>
-                                    <time>2017.04.17 09:38</time>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="commet-wrap">
-                            <p>很实在，现在很多人有些扭捏，不好意思说出自己423143214扭捏，不好意思说出自己4231432141243112431扭捏，不好意思说出自己42314321412431扭捏，不好意思说出自己423143214124312431243214的真实想法</p>
-                            <div class="tool-group">
-                                <a href="#">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>6</span>人赞
-                                </a>
-                                <a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span >回复</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sub-comment-list">
-                        <div class="sub-commet">
-                            <p>
-                                <a href="#">弗兰克</a>：
-                                <span>
-                                  <a href="#">@Jitter</a>
-                                  <span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>
-                                </span>
-                            </p>
-                            <div class="sub-tool-group">
-                                <span>2017.04.17 11:22</span>
-                                <a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span >回复</span>
-                                </a>
-                                <a href="#" class="report">
-                                    <span>举报</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="sub-commet">
-                            <p>
-                                <a href="#">弗兰克</a>：
-                                <span>
-                                  <a href="#">@Jitter</a>
-                                  <span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>
-                                </span>
-                            </p>
-                            <div class="sub-tool-group">
-                                <span>2017.04.17 11:22</span>
-                                <a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span >回复</span>
-                                </a>
-                                <a href="#" class="report">
-                                    <span>举报</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="sub-comment more-comment">
-                            <a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">
-                                <i class="fa fa-heart-o"></i>
-                                <span>添加评论</span>
-                            </a>
-                        </div>
-                        <div class="sub-comment-box" >
-                            <form action="#" class="new-commet">
-                                <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
-                                <div class="write-function-block">
-                                    <a href="javascript:void(0)" class="btn btn-info btn-send" onclick="btnCommentCommit(this)">发送</a>
-                                    <a href="javascript:void(0)" class="cancel" onclick="commentBoxCancel(this)">取消</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                                           <#--小于三条的评论-->
+                                           <#if !reply_has_next>
+                                               <div class="sub-comment more-comment">
+                                                   <a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">
+                                                       <i class="fa fa-heart-o"></i>
+                                                       <span>添加评论</span>
+                                                   </a>
+                                               </div>
+                                               <div class="sub-comment-box">
+                                                   <form action="#" class="new-commet">
+                                                       <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
+                                                       <div class="write-function-block">
+                                                           <a href="#" class="btn btn-info btn-send">发送</a>
+                                                           <a href="#" class="cancel">取消</a>
+                                                       </div>
+                                                   </form>
+                                               </div>
+                                           </#if>
+                                           <#else >
+                                               <#--大于三条的评论-->
+                                               <div class="sub-commet hidden">
+                                                   <p>
+                                                       <a href="#">${reply.fromUserName}</a>：
+                                                       <span>
+                                                           <a href="#">@${reply.toUserName}</a>
+                                                           <span>${reply.content}</span>
+                                                       </span>
+                                                   </p>
+                                                   <div class="sub-tool-group">
+                                                       <span>${reply.createTime?string('dd.MM.yyyy HH:mm:ss')}</span>
+                                                       <a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">
+                                                           <i class="fa fa-heart-o"></i>
+                                                           <span>回复</span>
+                                                       </a>
+                                                       <a href="#" class="report">
+                                                           <span>举报</span>
+                                                       </a>
+                                                   </div>
+                                               </div>
+                                               <#if !reply_has_next>
+                                                   <div class="sub-comment more-comment">
+                                                       <a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">
+                                                           <i class="fa fa-heart-o"></i>
+                                                           <span>添加评论</span>
+                                                       </a>
+                                                       <span class="line-wrap">
+                                                        还有<span>${comment.blogReplyVoList?size - 3}</span>条评论
+                                                       </span>
+                                                       <a href="javascript:void(0)" onclick="showReplyMore(this)">展开查看</a>
+                                                   </div>
+                                                   <div class="sub-comment-box">
+                                                       <form action="#" class="new-commet">
+                                                           <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
+                                                           <div class="write-function-block">
+                                                               <a href="#" class="btn btn-info btn-send">发送</a>
+                                                               <a href="#" class="cancel">取消</a>
+                                                           </div>
+                                                       </form>
+                                                   </div>
+                                               </#if>
+                                       </#if>
+                                   </#list>
+                                  <#else>
+                                  <#--没有任何回复，只有评论-->
+                                  <div class="sub-comment-box">
+                                      <form action="#" class="new-commet">
+                                          <textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>
+                                          <div class="write-function-block">
+                                              <a href="#" class="btn btn-info btn-send">发送</a>
+                                              <a href="#" class="cancel">取消</a>
+                                          </div>
+                                      </form>
+                                  </div>
+                               </#if>
+                               <#--<div class="sub-commet">-->
+                                   <#--<p>-->
+                                       <#--<a href="#">弗兰克</a>：-->
+                                       <#--<span>-->
+                                  <#--<a href="#">@Jitter</a>-->
+                                  <#--<span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>-->
+                                <#--</span>-->
+                                   <#--</p>-->
+                                   <#--<div class="sub-tool-group">-->
+                                       <#--<span>2017.04.17 11:22</span>-->
+                                       <#--<a href="#" class="response">-->
+                                           <#--<i class="fa fa-heart-o"></i>-->
+                                           <#--<span>回复</span>-->
+                                       <#--</a>-->
+                                       <#--<a href="#" class="report">-->
+                                           <#--<span>举报</span>-->
+                                       <#--</a>-->
+                                   <#--</div>-->
+                               <#--</div>-->
+                               <#--<div class="sub-commet">-->
+                                   <#--<p>-->
+                                       <#--<a href="#">弗兰克</a>：-->
+                                       <#--<span>-->
+                                  <#--<a href="#">@Jitter</a>-->
+                                  <#--<span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>-->
+                                <#--</span>-->
+                                   <#--</p>-->
+                                   <#--<div class="sub-tool-group">-->
+                                       <#--<span>2017.04.17 11:22</span>-->
+                                       <#--<a href="#" class="response">-->
+                                           <#--<i class="fa fa-heart-o"></i>-->
+                                           <#--<span>回复</span>-->
+                                       <#--</a>-->
+                                       <#--<a href="#" class="report">-->
+                                           <#--<span>举报</span>-->
+                                       <#--</a>-->
+                                   <#--</div>-->
+                               <#--</div>-->
+                               <#--<div class="sub-commet">-->
+                                   <#--<p>-->
+                                       <#--<a href="#">弗兰克</a>：-->
+                                       <#--<span>-->
+                                  <#--<a href="#">@Jitter</a>-->
+                                  <#--<span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>-->
+                                <#--</span>-->
+                                   <#--</p>-->
+                                   <#--<div class="sub-tool-group">-->
+                                       <#--<span>2017.04.17 11:22</span>-->
+                                       <#--<a href="#" class="response">-->
+                                           <#--<i class="fa fa-heart-o"></i>-->
+                                           <#--<span>回复</span>-->
+                                       <#--</a>-->
+                                       <#--<a href="#" class="report">-->
+                                           <#--<span>举报</span>-->
+                                       <#--</a>-->
+                                   <#--</div>-->
+                               <#--</div>-->
+                               <#--<div class="sub-comment more-comment">-->
+                                   <#--<a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">-->
+                                       <#--<i class="fa fa-heart-o"></i>-->
+                                       <#--<span>添加评论</span>-->
+                                   <#--</a>-->
+                                   <#--<span class="line-wrap">-->
+                                        <#--还有<span>9</span>条评论-->
+                                    <#--</span>-->
+                                   <#--<a href="#">展开查看</a>-->
+                               <#--</div>-->
+                               <#--<div class="sub-comment-box">-->
+                                   <#--<form action="#" class="new-commet">-->
+                                       <#--<textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>-->
+                                       <#--<div class="write-function-block">-->
+                                           <#--<a href="#" class="btn btn-info btn-send">发送</a>-->
+                                           <#--<a href="#" class="cancel">取消</a>-->
+                                       <#--</div>-->
+                                   <#--</form>-->
+                               <#--</div>-->
+                           </div>
+                       </div>
+                   </#list>
+               </#if>
+
+                <#--<div class="commet">-->
+                    <#--<div>-->
+                        <#--<div class="author">-->
+                            <#--<a href="#" class="avatar">-->
+                                <#--<img src="images/commet-avatar.jpg" alt="" >-->
+                            <#--</a>-->
+                            <#--<div class="info">-->
+                                <#--<a href="#">弗兰克</a>-->
+                                <#--<span class="author-tag">作者</span>-->
+                                <#--<div class="meta">-->
+                                    <#--<span>2楼</span>-->
+                                    <#--<time>2017.04.17 09:38</time>-->
+                                <#--</div>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                        <#--<div class="commet-wrap">-->
+                            <#--<p>很实在，现在很多人有些扭捏，不好意思说出自己423143214扭捏，不好意思说出自己4231432141243112431扭捏，不好意思说出自己42314321412431扭捏，不好意思说出自己423143214124312431243214的真实想法</p>-->
+                            <#--<div class="tool-group">-->
+                                <#--<a href="#">-->
+                                    <#--<i class="fa fa-heart-o"></i>-->
+                                    <#--<span>6</span>人赞-->
+                                <#--</a>-->
+                                <#--<a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">-->
+                                    <#--<i class="fa fa-heart-o"></i>-->
+                                    <#--<span>回复</span>-->
+                                <#--</a>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                    <#--<div class="sub-comment-list">-->
+                        <#--<div class="sub-comment-box">-->
+                            <#--<form action="#" class="new-commet">-->
+                                <#--<textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>-->
+                                <#--<div class="write-function-block">-->
+                                    <#--<a href="#" class="btn btn-info btn-send">发送</a>-->
+                                    <#--<a href="#" class="cancel">取消</a>-->
+                                <#--</div>-->
+                            <#--</form>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</div>-->
+
+
+
+
+
+
+
+
+
+
+
+                <#--<div class="commet">-->
+                    <#--<div>-->
+                        <#--<div class="author">-->
+                            <#--<a href="#" class="avatar">-->
+                                <#--<img src="images/commet-avatar.jpg" alt="" >-->
+                            <#--</a>-->
+                            <#--<div class="info">-->
+                                <#--<a href="#">弗兰克</a>-->
+                                <#--<span class="author-tag">作者</span>-->
+                                <#--<div class="meta">-->
+                                    <#--<span>2楼</span>-->
+                                    <#--<time>2017.04.17 09:38</time>-->
+                                <#--</div>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                        <#--<div class="commet-wrap">-->
+                            <#--<p>很实在，现在很多人有些扭捏，不好意思说出自己423143214扭捏，不好意思说出自己4231432141243112431扭捏，不好意思说出自己42314321412431扭捏，不好意思说出自己423143214124312431243214的真实想法</p>-->
+                            <#--<div class="tool-group">-->
+                                <#--<a href="#">-->
+                                    <#--<i class="fa fa-heart-o"></i>-->
+                                    <#--<span>6</span>人赞-->
+                                <#--</a>-->
+                                <#--<a href="javascript:void(0)" onclick="btnAddReplyCommentBox(this,1)">-->
+                                    <#--<i class="fa fa-heart-o"></i>-->
+                                    <#--<span >回复</span>-->
+                                <#--</a>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                    <#--<div class="sub-comment-list">-->
+                        <#--<div class="sub-commet">-->
+                            <#--<p>-->
+                                <#--<a href="#">弗兰克</a>：-->
+                                <#--<span>-->
+                                  <#--<a href="#">@Jitter</a>-->
+                                  <#--<span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>-->
+                                <#--</span>-->
+                            <#--</p>-->
+                            <#--<div class="sub-tool-group">-->
+                                <#--<span>2017.04.17 11:22</span>-->
+                                <#--<a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">-->
+                                    <#--<i class="fa fa-heart-o"></i>-->
+                                    <#--<span >回复</span>-->
+                                <#--</a>-->
+                                <#--<a href="#" class="report">-->
+                                    <#--<span>举报</span>-->
+                                <#--</a>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                        <#--<div class="sub-commet">-->
+                            <#--<p>-->
+                                <#--<a href="#">弗兰克</a>：-->
+                                <#--<span>-->
+                                  <#--<a href="#">@Jitter</a>-->
+                                  <#--<span> 你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课你好，简书目前我还不会去打广告，有兴趣可以去在行app，深圳地区搜索弗兰克深圳地区搜索弗兰克深圳地区搜索弗兰克，然后去预约线上课</span>-->
+                                <#--</span>-->
+                            <#--</p>-->
+                            <#--<div class="sub-tool-group">-->
+                                <#--<span>2017.04.17 11:22</span>-->
+                                <#--<a href="javascript:void(0)" class="response" onclick="btnAddReplyCommentBox(this,2)">-->
+                                    <#--<i class="fa fa-heart-o"></i>-->
+                                    <#--<span >回复</span>-->
+                                <#--</a>-->
+                                <#--<a href="#" class="report">-->
+                                    <#--<span>举报</span>-->
+                                <#--</a>-->
+                            <#--</div>-->
+                        <#--</div>-->
+                        <#--<div class="sub-comment more-comment">-->
+                            <#--<a href="javascript:void(0)"  onclick="btnAddCommentBox(this)">-->
+                                <#--<i class="fa fa-heart-o"></i>-->
+                                <#--<span>添加评论</span>-->
+                            <#--</a>-->
+                        <#--</div>-->
+                        <#--<div class="sub-comment-box" >-->
+                            <#--<form action="#" class="new-commet">-->
+                                <#--<textarea name="name" rows="3" placeholder="写下你的评论..."></textarea>-->
+                                <#--<div class="write-function-block">-->
+                                    <#--<a href="javascript:void(0)" class="btn btn-info btn-send" onclick="btnCommentCommit(this)">发送</a>-->
+                                    <#--<a href="javascript:void(0)" class="cancel" onclick="commentBoxCancel(this)">取消</a>-->
+                                <#--</div>-->
+                            <#--</form>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</div>-->
 
 
 
@@ -567,6 +679,26 @@
     function btnCommentCommit(obj){
         alert("");
     }
+
+
+    //展示更多的评论
+    function showReplyMore(obj) {
+        console.log($(obj).parent().parent().attr("class"));
+        console.log($(obj).parents(".sub-comment-list").children(".sub-commet").length)
+        $(obj).parent().parent().children(".sub-commet").each(function (i,n) {
+            var isHidden = $(n).attr("class")
+            console.log(isHidden)
+            if (isHidden){
+                $(n).removeClass("hidden");
+            }
+        });
+        //关闭展开查看
+        $(obj).addClass("hidden")
+        $(obj).prev().find("span").html("0");
+    }
+
+
+
 </script>
 
 

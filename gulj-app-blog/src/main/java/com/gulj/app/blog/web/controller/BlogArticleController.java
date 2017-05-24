@@ -6,8 +6,12 @@ import com.gulj.app.blog.api.bo.BusinessParamBo;
 import com.gulj.app.blog.api.bo.PageParamBo;
 import com.gulj.app.blog.api.entity.BlogArticle;
 import com.gulj.app.blog.api.service.BlogArticleService;
+import com.gulj.app.blog.api.service.BlogCommentService;
 import com.gulj.app.blog.api.vo.BlogArticleListVo;
+import com.gulj.app.blog.api.vo.BlogCommentVo;
 import com.gulj.app.blog.api.vo.JoinGuPageVo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -22,8 +26,14 @@ import java.util.List;
 public class BlogArticleController {
 
 
+    private Logger logger = LoggerFactory.getLogger(BlogArticleController.class);
+
+
     @Reference(version = "1.0.0", timeout = 1200000)
-    BlogArticleService articleService;
+    private BlogArticleService articleService;
+
+    @Reference(version = "1.0.0", timeout = 1200000)
+    private BlogCommentService blogCommentService;
 
 
     /**
@@ -73,8 +83,21 @@ public class BlogArticleController {
     @ResponseBody
     public ModelAndView detail(@PathVariable Integer articleId) {
         ModelAndView mv = new ModelAndView();
+        BusinessParamBo businessParamBo = new BusinessParamBo();
+        businessParamBo.setArticleId(articleId);
+        PageInfo<BlogCommentVo> list = blogCommentService.queryCommentListByArticleIdPages(businessParamBo, new PageParamBo());
+        JoinGuPageVo joinGuPageVo = null;
+        if (null != list) {
+            joinGuPageVo = new JoinGuPageVo();
+            joinGuPageVo.setPage(list.getPageNum());
+            joinGuPageVo.setTotal(list.getTotal());
+            joinGuPageVo.setTotalPage(list.getPages());
+            List<BlogCommentVo> appUserLst = list.getList();
+            joinGuPageVo.setRows(appUserLst);
+        }
         mv.setViewName("views/detail");
-        System.out.println(articleId);
+        mv.addObject("commetReplyPageVo",joinGuPageVo);
+        logger.info(""+articleId);
         return mv;
     }
 
