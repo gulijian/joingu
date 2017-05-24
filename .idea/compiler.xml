@@ -12,6 +12,7 @@
         <module name="gulj-app-blog" />
         <module name="gulj-app-blog-api" />
         <module name="gulj-app-blog-biz" />
+        <module name="gulj-assembly-redis" />
         <module name="gulj-common-util" />
         <module name="gulj-entity-common" />
         <module name="gulj-entity-common-bo" />
@@ -29,6 +30,7 @@
       <module name="gulj-app-parent" target="1.8" />
       <module name="gulj-assembly-email" target="1.8" />
       <module name="gulj-assembly-parent" target="1.8" />
+      <module name="gulj-assembly-redis" target="1.8" />
       <module name="gulj-base-adapter" target="1.5" />
       <module name="gulj-base-dependency" target="1.8" />
       <module name="gulj-common-parent" target="1.8" />

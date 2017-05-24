@@ -1,4 +1,4 @@
-package gulj.assembly;
+package com.gulj.assembly.redis;
 
 /**
  * Hello world!

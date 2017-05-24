@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/gulj-app-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulj-assembly-email" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulj-assembly-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulj-assembly-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulj-base-adapter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulj-base-dependency" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulj-common-parent" charset="UTF-8" />

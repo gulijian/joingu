@@ -6,8 +6,9 @@ import com.gulj.app.admin.biz.entity.User;
 import com.gulj.app.admin.biz.service.MenuService;
 import com.gulj.app.admin.biz.service.UserService;
 import com.gulj.app.admin.web.constant.AdminConstant;
-import com.gulj.app.admin.web.enums.FeijianCodeEnum;
 import com.gulj.app.admin.web.constant.FeijianConstant;
+import com.gulj.app.admin.web.enums.FeijianCodeEnum;
+import com.gulj.assembly.redis.cache.CacheComponent;
 import com.gulj.common.util.Const;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,6 +31,9 @@ public class LoginController {
     @Autowired
     private MenuService menuService;
 
+    @Autowired
+    private CacheComponent cacheComponent;
+
 
     /**
      * @param request
@@ -42,6 +46,7 @@ public class LoginController {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         JSONObject jsonObject = null;
+//      cacheComponent.vset(RedisKeyBo.CacheModule.PC, RedisKeyBo.APP_PROJECT_FILTER_CONFIG + "ddddd", 123);
         try {
             jsonObject = new JSONObject();
             User user = userService.checkUser(username, password);

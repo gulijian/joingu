@@ -1,4 +1,4 @@
-package gulj.assembly;
+package com.gulj.assembly.redis;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

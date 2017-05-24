@@ -16,6 +16,7 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>../gulj-assembly-email</module>
+        <module>../gulj-assembly-redis</module>
     </modules>
 
     <properties>
