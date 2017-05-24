@@ -8,7 +8,7 @@ import com.gulj.app.admin.biz.service.UserService;
 import com.gulj.app.admin.web.constant.AdminConstant;
 import com.gulj.app.admin.web.constant.FeijianConstant;
 import com.gulj.app.admin.web.enums.FeijianCodeEnum;
-import com.gulj.assembly.redis.cache.CacheComponent;
+import com.gulj.assembly.email.cache.CacheComponent;
 import com.gulj.common.util.Const;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

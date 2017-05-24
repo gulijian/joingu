@@ -1,6 +1,6 @@
 package com.gulj.assembly.config;
 
-import com.gulj.assembly.redis.prop.RedisProp;
+import com.gulj.assembly.email.prop.RedisProp;
 import com.gulj.entity.common.bo.JoinAnnotationBeanNameGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,7 +21,7 @@ import redis.clients.jedis.JedisPoolConfig;
 @Configuration
 @PropertySources({@PropertySource("classpath:config/gulj-assembly-redis.properties")})
 @EnableConfigurationProperties({RedisProp.class})
-@ComponentScan(basePackages = {"com.gulj.assembly.redis"}, nameGenerator = JoinAnnotationBeanNameGenerator.class)
+@ComponentScan(basePackages = {"com.gulj.assembly.email"}, nameGenerator = JoinAnnotationBeanNameGenerator.class)
 public class AssemblyRedisConfig {
 
 
