@@ -1,4 +1,4 @@
-package com.gulj.assembly.email.cache;
+package com.gulj.assembly.redis.cache;
 
 import com.gulj.entity.common.bo.RedisKeyBo;
 

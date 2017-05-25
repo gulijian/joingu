@@ -1,4 +1,4 @@
-package com.gulj.assembly.email;
+package com.gulj.assembly.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.FileSystemResource;
