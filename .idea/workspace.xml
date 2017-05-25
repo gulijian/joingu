@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5fc690a-8b89-4b30-998f-ff86aaa7d7e2" name="Default" comment="" />
+    <list default="true" id="f5fc690a-8b89-4b30-998f-ff86aaa7d7e2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/blog/BlogArticleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/article/list.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/comment/add.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" afterPath="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/AdminConstant.java" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/AdminConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/department/list.ftl" afterPath="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/department/list.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" />
+    </list>
     <ignored path="$PROJECT_DIR$/gulj-base-adapter/target/" />
     <ignored path="$PROJECT_DIR$/gulj-base-dependency/target/" />
     <ignored path="$PROJECT_DIR$/gulj-assembly-parent/target/" />
@@ -44,118 +56,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="47" column="21" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="47" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailApplicationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/test/java/EmailApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailAssembly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssembly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailAssemblyImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssemblyEmailConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/config/AssemblyEmailConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-entity-common-bo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/EmailApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulj-assembly-email.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/resources/config/gulj-assembly-email.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -221,12 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogListController.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AppAuthAspect.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AuthBaseAspect.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/list.ftl" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/include/public.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/include/public-js.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/config/mybatis.properties" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/mapper/BlogCommentMapper.java" />
@@ -234,7 +129,6 @@
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogReplyServiceImpl.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/mapper/BlogReplyMapper.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogReplyService.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/include/header.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/css/common/header/search.css" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/include/public-list-css.ftl" />
@@ -246,8 +140,6 @@
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCommentServiceImpl.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCommentController.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java" />
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl" />
         <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl" />
@@ -257,7 +149,6 @@
         <option value="$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/redis/prop/RedisProp.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/redis/cache/Cache.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/redis/cache/CacheComponent.java" />
-        <option value="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/AdminApplication.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/redis/cache/CacheComponentImpl.java" />
         <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java" />
@@ -272,6 +163,16 @@
         <option value="$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssembly.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-email/src/test/java/EmailApplicationTest.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/department/list.ftl" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/comment/add.ftl" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/blog/BlogArticleController.java" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/AdminConstant.java" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl" />
+        <option value="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/article/list.ftl" />
+        <option value="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/gulj-app-admin-biz/pom.xml" />
       </list>
     </option>
   </component>
@@ -363,7 +264,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -398,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-assembly-email" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-assembly-email" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -430,7 +331,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-assembly-email" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -441,6 +342,14 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -452,7 +361,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-assembly-email" />
+              <option name="myItemId" value="gulj-app-admin-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joingu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulj-app-admin-biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -467,10 +402,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assembly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -482,27 +413,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulj-assembly-email" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assembly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="email" />
+              <option name="myItemId" value="gulj-app-admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,6 +439,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/comment" />
+      <recent name="$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/article" />
       <recent name="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/config" />
       <recent name="$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/generator" />
     </key>
@@ -561,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailApplicationTest.sendAttachmentsMail">
+  <component name="RunManager" selected="Spring Boot.GuljAppBlogApplication">
     <configuration default="false" name="UserServiceTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1331,18 +1244,18 @@
       <workItem from="1494736865264" duration="16498000" />
       <workItem from="1494829332295" duration="21082000" />
       <workItem from="1495072810291" duration="47410000" />
-      <workItem from="1495607156394" duration="12464000" />
+      <workItem from="1495607156394" duration="17926000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailApplicationTest_sendAttachmentsMail - 2017.05.24 at 16h 38m 36s.xml">
-      <configuration name="EmailApplicationTest.sendAttachmentsMail" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EmailApplicationTest_sendAttachmentsMail - 2017.05.24 at 17h 44m 55s.xml">
       <configuration name="EmailApplicationTest.sendAttachmentsMail" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EmailApplicationTest_sendAttachmentsMail - 2017.05.24 at 17h 46m 11s.xml">
+      <configuration name="EmailApplicationTest.sendAttachmentsMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailApplicationTest_sendAttachmentsMail - 2017.05.25 at 14h 33m 19s.xml">
       <configuration name="EmailApplicationTest.sendAttachmentsMail" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EmailApplicationTest_sendInlineMail - 2017.05.24 at 17h 32m 12s.xml">
@@ -1368,7 +1281,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186962000" />
+    <option name="totallyTimeSpent" value="192424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1381,7 +1294,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-292" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1406,7 +1319,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35247526" sideWeight="0.49574015" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140575" sideWeight="0.49483013" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140575" sideWeight="0.49483013" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.50516987" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1444,172 +1357,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AuthBaseAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/config/BlogConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/list.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/entity/BlogCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/static/images/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="51" column="72" lean-forward="true" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/templates/views/detail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/gulj/assembly/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-entity-common-bo/src/main/java/com/gulj/entity/common/bo/JoinAnnotationBeanNameGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-entity-common-bo/src/main/java/com/gulj/entity/common/bo/RedisKeyBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/CacheComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/resources/config/gulj-assembly-redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/config/AdminConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/CacheComponentImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1410">
@@ -1753,26 +1500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar!/org/springframework/core/io/FileSystemResource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="21" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="47" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-entity-common-bo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1785,47 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/resources/config/gulj-assembly-email.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar!/org/springframework/core/io/FileSystemResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/AssemblyEmailBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1834,22 +1524,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/EmailApplication.java">
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyBo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/test/java/EmailApplicationTest.java">
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1859,20 +1545,251 @@
     <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssembly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="44" selection-end-column="0" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/test/java/EmailApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java">
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-entity-common-bo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/EmailApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/resources/config/gulj-assembly-email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/article/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/constant/AdminConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/comment/add.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/common/include/public.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" column="60" lean-forward="false" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/qrcode/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/department/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="379" column="17" lean-forward="true" selection-start-line="379" selection-start-column="17" selection-end-line="379" selection-end-column="17" />
+          <folding>
+            <marker date="1495694433000" expanded="true" signature="8046:8059" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/sys/employee/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-biz/src/main/java/com/gulj/app/blog/biz/service/impl/BlogArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="39" column="75" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="e#1328#1329#0" expanded="false" />
+            <element signature="e#1377#1378#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/resources/templates/views/sys/blog/article/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/blog/BlogArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#486#487#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin/src/main/java/com/gulj/app/admin/web/controller/sys/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-blog-api/src/main/java/com/gulj/app/blog/api/service/BlogCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/src/main/java/com/gulj/app/admin/biz/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-app-admin-biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

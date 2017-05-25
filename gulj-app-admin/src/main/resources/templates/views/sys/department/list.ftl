@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<%@include file="/WEB-INF/include/taglib.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -10,7 +8,6 @@
 		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 		<meta http-equiv="description" content="This is my page">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	  	<%@include file="/WEB-INF/include/public.jsp" %>
 	</head>
 
 	<body style="background-color:fafafa!important">
