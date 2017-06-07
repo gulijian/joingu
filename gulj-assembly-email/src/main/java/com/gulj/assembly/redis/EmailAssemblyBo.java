@@ -1,4 +1,4 @@
-package com.gulj.assembly.email;
+package com.gulj.assembly.redis;
 
 /**
  * @author gulj

@@ -1,6 +1,6 @@
 import com.gulj.assembly.EmailApplication;
-import com.gulj.assembly.email.EmailAssemblyBo;
-import com.gulj.assembly.email.EmailAssembly;
+import com.gulj.assembly.redis.EmailAssemblyBo;
+import com.gulj.assembly.redis.EmailAssembly;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

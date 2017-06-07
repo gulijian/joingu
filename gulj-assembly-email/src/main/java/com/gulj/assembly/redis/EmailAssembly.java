@@ -1,4 +1,4 @@
-package com.gulj.assembly.email;
+package com.gulj.assembly.redis;
 
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;

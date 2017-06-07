@@ -32,6 +32,11 @@
         </dependency>
 
         <dependency>
+            <groupId>gulj.app</groupId>
+            <artifactId>gulj-app-blog-api</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>gulj.assembly</groupId>
             <artifactId>gulj-assembly-redis</artifactId>
         </dependency>

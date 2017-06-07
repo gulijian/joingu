@@ -1,4 +1,4 @@
-package com.gulj.assembly.email;
+package com.gulj.assembly.redis;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

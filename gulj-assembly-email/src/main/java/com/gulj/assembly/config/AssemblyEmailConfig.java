@@ -13,7 +13,7 @@ import org.springframework.context.annotation.PropertySources;
 
 @Configuration
 @PropertySources({@PropertySource("classpath:config/gulj-assembly-email.properties")})
-@ComponentScan(basePackages = {"com.gulj.assembly.email"}, nameGenerator = JoinAnnotationBeanNameGenerator.class)
+@ComponentScan(basePackages = {"com.gulj.assembly.redis"}, nameGenerator = JoinAnnotationBeanNameGenerator.class)
 public class AssemblyEmailConfig {
 
 

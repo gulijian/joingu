@@ -1,4 +1,4 @@
-package com.gulj.assembly.email.prop;
+package com.gulj.assembly.redis.prop;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
