@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f5fc690a-8b89-4b30-998f-ff86aaa7d7e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/gulj_app_admin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gulj_app_admin_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/gulj-base-adapter/target/" />
@@ -48,11 +49,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulj-entity-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20956">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1496846861000" expanded="true" signature="94768:94783" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="94818:97841" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="94831:97826" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="94885:95271" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="94904:95256" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95019:95236" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95059:95202" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95080:95180" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95304:95569" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95323:95554" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95356:95534" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95396:95500" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95417:95478" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95619:95928" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95638:95913" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95715:95893" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95755:95859" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95776:95837" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95979:96298" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="95998:96283" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96085:96263" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96125:96229" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96146:96207" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96341:96647" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96360:96632" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96434:96612" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96474:96578" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96495:96556" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96698:97059" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96717:97044" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96807:97024" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96847:96990" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="96868:96968" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97094:97400" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97113:97385" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97187:97365" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97227:97331" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97248:97309" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97452:97812" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97471:97797" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97599:97777" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97639:97743" ph="..." />
+                <marker date="1496846861000" expanded="true" signature="97660:97721" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulj_app_admin_war_exploded.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/gulj_app_admin_war_exploded.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogListController.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/controller/BlogIndexController.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AppAuthAspect.java" />
         <option value="$PROJECT_DIR$/gulj-app-blog/src/main/java/com/gulj/app/blog/web/aop/AuthBaseAspect.java" />
@@ -175,6 +239,7 @@
         <option value="$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssembly.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-email/src/test/java/EmailApplicationTest.java" />
         <option value="$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/gulj_app_admin_war_exploded.xml" />
       </list>
     </option>
   </component>
@@ -1112,7 +1177,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187054000" />
+    <option name="totallyTimeSpent" value="187642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1318,13 +1383,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../D/developersoftware/apache-maven-3.3.9-repo/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.pom" />
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/CacheComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/CacheComponent.java" />
     <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/resources/config/gulj-assembly-redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1353,27 +1412,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/CacheComponentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1410">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/prop/RedisProp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/CacheComponentImpl.java" />
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/prop/RedisProp.java" />
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/email/cache/Cache.java" />
     <entry file="file://$PROJECT_DIR$/gulj-assembly-redis/src/main/java/com/gulj/assembly/config/AssemblyRedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1393,7 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="362" column="0" lean-forward="true" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,7 +1506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,20 +1559,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssembly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssembly.java" />
+    <entry file="file://$PROJECT_DIR$/gulj-assembly-email/src/main/java/com/gulj/assembly/email/EmailAssemblyImpl.java" />
   </component>
   <component name="masterDetails">
     <states>
