@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="gulj-app-admin:war">
-    <output-path>$PROJECT_DIR$/gulj-app-admin/target</output-path>
-    <root id="archive" name="gulj-app-admin-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="gulj-app-admin:war exploded" />
-    </root>
-  </artifact>
-</component>

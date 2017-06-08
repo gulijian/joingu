@@ -1,9 +1,0 @@
-com/gulj/app/admin/biz/entity/User.class
-com/gulj/app/admin/biz/mapper/UserMapper.class
-com/gulj/app/admin/biz/entity/ReqParam.class
-com/gulj/app/admin/biz/service/MenuService.class
-com/gulj/app/admin/config/AdminBizConfig.class
-com/gulj/app/admin/biz/entity/Menu.class
-com/gulj/app/admin/biz/entity/Role.class
-com/gulj/app/admin/biz/mapper/MenuMapper.class
-com/gulj/app/admin/biz/service/UserService.class
