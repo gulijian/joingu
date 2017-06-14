@@ -5,18 +5,12 @@
 * <strong>gulj-base-dependency<strong>: 平台基础框架版本管理模块，用于统一管理项目依赖信息
 
 > app(业务模块)：用于具体业务的实际承载，相关子模块如下：
-<<<<<<< HEAD
->>  <strong>gulj-app-parent<strong>:  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  app子模块的父模块，用于统一归集
->>>	<strong>gulj-app-admin</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		 后台管理系统Web层
->>> <strong>gulj-app-admin-biz</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-=======
+
 >>  <strong>gulj-app-parent<strong>:   &nbsp;&nbsp; 子模块的父模块，用于统一归集
 >>>	
 *  <strong>gulj-app-admin</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		 后台管理系统Web层
 *  <strong>gulj-app-admin-biz</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
->>>>>>> parent of 61f4afe... update
 		 后台管理系统服务层
 * <strong>gulj-app-blog</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	    博客系统web层（消费者）
