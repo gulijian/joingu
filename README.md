@@ -34,3 +34,8 @@
 	   orm实体的公共模块
 * <strong>gulj-entity-common-bo</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	   公共业务bean模块，提供公共分页、异常定义等信息
+
+
+#项目部分展示
+![image](https://github.com/gulijian/joingu/blob/master/screenshots/1.jpeg)
+
