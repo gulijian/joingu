@@ -7,7 +7,6 @@
 >>  <strong>gulj-app-parent<strong>:  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  app子模块的父模块，用于统一归集
 >>>	<strong>gulj-app-admin</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		 后台管理系统Web层
-<br/>
 >>> <strong>gulj-app-admin-biz</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		 后台管理系统服务层
 <br/>
