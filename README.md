@@ -1,7 +1,8 @@
 # 项目脚手架
 > base(基础框架模块)：用于整合对外部依赖的适配及版本等信息的统一管理，相关子模块如下：
 >>  <strong>gulj-base-adapter<strong>: 平台基础框架适配模块，主要用于统一对spring boot的依赖
->>>  <strong>gulj-base-dependency<strong>: 平台基础框架版本管理模块，用于统一管理项目依赖信息
+>>> 
+* <strong>gulj-base-dependency<strong>: 平台基础框架版本管理模块，用于统一管理项目依赖信息
 
 > app(业务模块)：用于具体业务的实际承载，相关子模块如下：
 >>  <strong>gulj-app-parent<strong>:   &nbsp;&nbsp; 子模块的父模块，用于统一归集
@@ -36,6 +37,6 @@
 	   公共业务bean模块，提供公共分页、异常定义等信息
 
 
-#项目部分展示
+# 项目部分展示
 ![image](https://github.com/gulijian/joingu/blob/master/screenshots/1.jpeg)
 
